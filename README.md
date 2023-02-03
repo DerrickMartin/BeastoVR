@@ -1,14 +1,16 @@
-# Create React App
+# Welcome! #
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+This is my website for my VRChat profile.
 
-## Deploy Your Own
+## Quick ShoutOut ##
 
-Deploy your own Create React App project with Vercel.
+This is all possible thanks to Vercel! 🥳
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+Google Cloud☁️,
 
-_Live Example: https://create-react-template.vercel.app/_
+VRoid🫧,
+
+VRChat 🌟
 
 ## Available Scripts
 
