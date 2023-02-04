@@ -7,11 +7,10 @@
   pointer-events: none;
 }
 
-
-
 .App-header {
   background-color: #282c34;
   min-height: 50px;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -21,8 +20,9 @@
 }
 
 .App-Logo-Text {
-  font-size: 35px;
+  font-size: 40px;
   font-weight: bold;
+  margin-left: 10px;
 }
 .App-link {
   color: #61dafb;
@@ -31,4 +31,5 @@
 .Nav-Routes {
   flex-direction: row-reverse;
   font-weight: bold;
+  margin: 10px;
 }
