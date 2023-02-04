@@ -15,7 +15,7 @@ function App() {
         Clothes
         </p>
         <p className="Nav-Routes"> 
-        Avatar
+        Avatars
         </p>
         <p className="Nav-Routes"> 
         World
@@ -30,10 +30,15 @@ function App() {
         </a>
       </header>
       <body>
-        <p >
+        <p>
           Welcome, 
           はじめまして
-        </p></body>
+        </p>
+      </body>
+      <footer className='App-Footer'>
+        <p>Footer</p>
+        <p>2023 Teh Beasto</p>
+      </footer>
     </div>
   );
 }

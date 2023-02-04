@@ -32,5 +32,11 @@
 .Nav-Routes {
   flex-direction: row-reverse;
   font-weight: bold;
-  margin: 10px;
+  margin: 15px;
+}
+
+.App-Footer {
+  background-color: #282c34;
+  min-height: 50px;
+  width: 100vw;
 }
