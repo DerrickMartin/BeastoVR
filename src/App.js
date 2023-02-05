@@ -34,25 +34,28 @@ function App() {
       <body className="App-Body">
         <div className="hero-section">
         <p className="left-hero" >
-          Welcome, 
+          Welcome,
           はじめまして
         </p>
         <p className="right-hero">
         <img src={logo} className="App-logo" alt="logo" />
         </p>
-      </body>
+        </div>
+      
       <footer className='App-Footer'>
         <p className="App-Logo-Text">てベ-スと</p>
         <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>
         <div bottom-links>
-          <a>Home</a> 
-          <a>Contact Us <a>
-          <a>Worlds<a>
-          <a>Clothes<a>
-          <a>Social Media Icons<a>
-        <div>
+          <a href="www.tehbeasto.cloud">Home</a> 
+          <a href="www.tehbeasto.cloud">Contact Us </a>
+          <a href="www.tehbeasto.cloud">Worlds</a>
+          <a href="www.tehbeasto.cloud">Clothes</a>
+          <a href="www.tehbeasto.cloud">Social Media Icons</a>
+        </div>
+     
       </footer>
-    </div>
+    </body>
+   </div>
   );
 }
 
