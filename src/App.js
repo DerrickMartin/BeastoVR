@@ -1,6 +1,8 @@
 
 import './App.css';
 
+//replace with VRChat 3d modal
+import logo from './logo.svg';
 
 function App() {
   return (
@@ -29,15 +31,26 @@ function App() {
           Teh Beasto
         </a>
       </header>
-      <body>
-        <p>
+      <body className="App-Body">
+        <div className="hero-section">
+        <p className="left-hero" >
           Welcome, 
           はじめまして
         </p>
+        <p className="right-hero">
+        <img src={logo} className="App-logo" alt="logo" />
+        </p>
       </body>
       <footer className='App-Footer'>
-        <p>Footer</p>
-        <p>2023 Teh Beasto</p>
+        <p className="App-Logo-Text">てベ-スと</p>
+        <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>
+        <div bottom-links>
+          <a>Home</a> 
+          <a>Contact Us <a>
+          <a>Worlds<a>
+          <a>Clothes<a>
+          <a>Social Media Icons<a>
+        <div>
       </footer>
     </div>
   );
