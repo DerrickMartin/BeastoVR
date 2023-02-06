@@ -1,6 +1,8 @@
 
 import './App.css';
 
+//Import componenets
+import Navbar from './components/Navbar/Navbar'
 //replace with VRChat 3d modal
 
 import vrchatModal from './assets/pictures/TehBeastoLayingDown.png';
@@ -8,30 +10,7 @@ import vrchatModal from './assets/pictures/TehBeastoLayingDown.png';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a
-          className="App-Logo-Text"
-          href="https://www.tehbeasto.cloud"
-          target="_blank"
-          rel="noopener noreferrer">てベ-スと</a>
-        <p className="Nav-Routes"> 
-        Clothes
-        </p>
-        <p className="Nav-Routes"> 
-        Avatars
-        </p>
-        <p className="Nav-Routes"> 
-        World
-        </p>
-        <a
-          className="App-link"
-          href="https://www.tehbeasto.cloud"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Teh Beasto
-        </a>
-      </header>
+      <Navbar />
       <body className="App-Body">
         <div className="hero-section">
           <div className="left-hero" >
