@@ -1,3 +1,7 @@
+
+body{
+  height: 400px;
+}
 .App {
   text-align: center;
   width: 100vw;
@@ -32,11 +36,12 @@
 }
 .App-Body {
   background-color: rgb(100,200,100);
-  width: 100%;
+  width: 400rem;
   height: 100%;
 }
 .hero-section {
   flex-direction: row;
+  display: flex;
 }
 .left-hero {
   width: 50%;

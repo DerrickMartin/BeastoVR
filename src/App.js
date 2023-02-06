@@ -2,7 +2,8 @@
 import './App.css';
 
 //replace with VRChat 3d modal
-import logo from './logo.svg';
+
+import vrchatModal from './assets/pictures/TehBeastoLayingDown.png';
 
 function App() {
   return (
@@ -33,15 +34,23 @@ function App() {
       </header>
       <body className="App-Body">
         <div className="hero-section">
-        <p className="left-hero" >
-          Welcome,
-          はじめまして
-        </p>
-        <p className="right-hero">
-        <img src={logo} className="App-logo" alt="logo" />
-        </p>
+          <div className="left-hero" >
+            <p>
+            Welcome,
+            はじめまして
+            </p>
+          </div>
+          <div className="right-hero">
+            <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
+          </div> 
         </div>
-      
+        <div className='inline-links'>
+          <ul>
+            <li>
+            </li>
+          </ul>
+        </div>
+
       <footer className='App-Footer'>
         <p className="App-Logo-Text">てベ-スと</p>
         <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>
