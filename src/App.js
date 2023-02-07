@@ -25,8 +25,9 @@ function App() {
         </div>
         <div className='inline-links'>
           <ul>
-            <li>
-            </li>
+            <li> hey </li>
+            <li> hey </li>
+            <li> hey </li>
           </ul>
         </div>
 
@@ -40,8 +41,8 @@ function App() {
           <a href="www.tehbeasto.cloud">Clothes</a>
           <a href="www.tehbeasto.cloud">Social Media Icons</a>
         </div>
-     
       </footer>
+
     </body>
    </div>
   );

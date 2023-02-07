@@ -1,5 +1,4 @@
-import { Component } from 'react';
-import '.Navbar.css'
+import '.NavbarStyles.css';
 
 function Navbar() {
 
