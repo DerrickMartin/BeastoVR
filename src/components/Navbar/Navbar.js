@@ -1,4 +1,5 @@
-import '.NavbarStyles.css';
+import { React } from "react";
+import './NavbarStyles.css';
 
 function Navbar() {
 
@@ -15,7 +16,7 @@ function Navbar() {
                 </h1>
             </div>
             <div className='header-links'>
-                <ul>
+                <ul className="web-nav-links">
                     <li>Avatars</li>
                     <li>Worlds</li>
                     <li>Clothes</li>
