@@ -10,7 +10,7 @@
 header {
       background-color: var(--background_dark);
 }
-body {
+.App-Body {
     background-color: var(--body_background_dark);
 }
 .web-nav-links {
