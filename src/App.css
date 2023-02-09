@@ -20,11 +20,12 @@ body {
 .Nav-Routes {
   flex-direction: row-reverse;
   font-weight: bold;
-  margin: 15px;
+  margin: 1px;
 }
 .App-Body {
   width: 100%;
   height: 100vh;
+  font-size: 16px;
 }
 .hero-section {
   flex-direction: row;
@@ -32,6 +33,7 @@ body {
 }
 .left-hero {
   width: 50%;
+  font-size: 20px;
 }
 .right-hero {
   width: 50%;
