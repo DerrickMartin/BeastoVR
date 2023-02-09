@@ -16,9 +16,20 @@
 
 .web-nav-links {
   text-decoration: none;
-
 }
 
+a:link {
+  color: #fff;
+  }
+a:visited {
+  color: #fff;
+  }
+a:hover {
+  color: #8d9bb8;
+  }
+a:active {
+  color: rgb(0,0,0);
+  }
 
 
 @media only screen and (max-width: 720px) { 
@@ -30,4 +41,7 @@
   .app-header {
     background-color: #8d9bb8;
   }
+  .web-nav-links {
+  display: none;
+}
 }
