@@ -13,7 +13,7 @@ function Navbar() {
                         className="App-Logo-Text"
                         href="https://www.tehbeasto.cloud"
                         target="_blank"
-                        rel="noopener noreferrer">てベ-スと
+                        rel="noopener noreferrer">テベ-スと
                     </a>
                 </h1>
             </div>
