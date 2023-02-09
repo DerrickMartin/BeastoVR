@@ -1,11 +1,11 @@
 .app-header {
-    min-height: 60px;
+    min-height: 55px;
     width: 100vw;
     display: flex;
     flex-direction: row;
     font-size: calc(10px + 2vmin);
     background-color: #212227;
-    color: #fff;
+    color: #B1B1B1;
   }
 .logo {
   align-items: left;
@@ -15,7 +15,6 @@
 .App-Logo-Text{
   font-size: 18px;
   font-weight: bold;
-  padding: 5px;
 }
 .header-links {
     display: inline-block;
