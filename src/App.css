@@ -1,6 +1,6 @@
+body {
+  height: 500px;
 
-body{
-  height: 400px;
 }
 .App {
   text-align: center;
@@ -19,7 +19,6 @@ body{
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 .App-Logo-Text {
   font-size: 40px;
