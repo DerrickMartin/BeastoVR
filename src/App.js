@@ -40,7 +40,6 @@ function App() {
               <!-- Insert Title Photo -->
            <h3 className="stream-titles"> Fortnite </h3>
               <!-- Insert Title Photo -->
-          </div>
         </div>
 
       <footer className='App-Footer'>
