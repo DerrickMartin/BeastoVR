@@ -41,6 +41,7 @@ function App() {
            <h3 className="stream-titles"> Fortnite </h3>
             <p> Insert Photo </p>
         </div>
+      </div>
 
       <footer className='App-Footer'>
         <p className="App-Logo-Text">テベ-スと</p>
