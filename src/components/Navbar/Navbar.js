@@ -2,7 +2,7 @@ import { React } from "react";
 import './NavbarStyles.css';
 
 //import global style
-import '../styles/globalstyles.css';
+import 'src/styles/globalstyles.css';
 function Navbar() {
 
         return (
