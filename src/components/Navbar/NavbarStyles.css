@@ -12,9 +12,10 @@
   align-items: left;
   justify-content: left;
   margin: 5px;
-  font-size: 10px;
   }
-
+.App-Logo-Text{
+  font-size: 10px;
+}
 .header-links {
     display: inline-block;
 }
