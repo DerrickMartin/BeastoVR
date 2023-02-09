@@ -29,17 +29,17 @@ function App() {
           </h2>
           <div className="stream-photos">
             <div className="photo">
-            <!-- Insert Picture       insert Picture -->
+              <p> Insert Photo </p> <p> Insert Photo </p>
             </div>
           <p>Hey! Welcome everyone im Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! Alot of content I like to play in VR and stream.<p>
           <p>I would love for you to stop by, and if you have an Oculus Headset maybe you can join too!<p>
           <p>Here is a small list of titles I spend time on.</p> 
            <h3 className="stream-titles"> VrChat </h3>
-              <!-- Insert Title Photo -->
+            <p> Insert Photo </p>
            <h3 className="stream-titles"> Naruto Ultimate Ninja Storm 4 </h3>
-              <!-- Insert Title Photo -->
+            <p> Insert Photo </p>
            <h3 className="stream-titles"> Fortnite </h3>
-              <!-- Insert Title Photo -->
+            <p> Insert Photo </p>
         </div>
 
       <footer className='App-Footer'>
