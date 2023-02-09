@@ -14,7 +14,8 @@
   margin: 5px;
   }
 .App-Logo-Text{
-  font-size: 10px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .header-links {
     display: inline-block;
