@@ -1,8 +1,6 @@
 import { React } from "react";
 import './NavbarStyles.css';
 
-import '../../styles/globalstyles.css';
-
 function Navbar() {
 
         return (
@@ -13,7 +11,7 @@ function Navbar() {
                         className="App-Logo-Text"
                         href="https://www.tehbeasto.cloud"
                         target="_blank"
-                        rel="noopener noreferrer">テベ-スと
+                        rel="noopener noreferrer">てベ-スと
                     </a>
                 </h1>
             </div>

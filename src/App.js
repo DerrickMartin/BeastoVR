@@ -1,11 +1,9 @@
 
 import './App.css';
 
-//Import componenets
-import Navbar from './components/Navbar/Navbar';
-
-
 import './styles/globalstyles.css';
+//Import componenets
+import Navbar from './components/Navbar/Navbar'
 //replace with VRChat 3d modal
 import vrchatModal from './src/assets/pictures/tehbeasto.png';
 
@@ -53,3 +51,26 @@ function App() {
 export default App;
 
 
+
+/*      
+import logo from './logo.svg';
+
+Default image
+<img src={logo} className="App-logo" alt="logo" />
+
+Css styling (default)
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*/
