@@ -1,0 +1,29 @@
+.root {
+    --background_dark: #212227;
+    --background_light: #ccd3db;
+    --primary_color_dark: #B1B1B1;
+    --primary_color_light: hsl(0, 0%, 20%);
+
+    color: var(--primary_color_dark);
+}
+
+.web-nav-links {
+    text-decoration: none;
+  }
+  
+  a:link {
+    color: var(--primary_color_dark);
+    text-decoration: none;
+    }
+  a:visited {
+    color: var(--primary_color_dark);
+    text-decoration: none;
+    }
+  a:hover {
+    color: var(--primary_color_dark);
+    text-decoration: none;
+    }
+  a:active {
+    color: rgb(0,0,0);
+    text-decoration: none;
+    }
