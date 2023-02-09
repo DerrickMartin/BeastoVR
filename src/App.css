@@ -43,6 +43,8 @@ body {
   background-color: #212227;
   min-height: 50px;
   width: 100vw;
+  position: fixed;
+  bottom: 0;
 }
 .bottom-links {
   flex-direction: row;
