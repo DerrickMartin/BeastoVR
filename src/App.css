@@ -43,7 +43,7 @@ body {
   background-color: #212227;
   min-height: 50px;
   width: 100vw;
-  position: relative;
+  position: absolute;
   bottom: 0;
 }
 .bottom-links {
