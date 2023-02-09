@@ -1,8 +1,7 @@
 import { React } from "react";
 import './NavbarStyles.css';
 
-//import global style
-import './src/styles/globalstyles.css';
+
 function Navbar() {
 
         return (
