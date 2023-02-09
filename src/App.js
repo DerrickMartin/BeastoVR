@@ -28,8 +28,9 @@ function App() {
             Steaming in VR
           </h2>
           <div className="stream-photos">
-           <div className="photo">
-            <!-- Insert Picture -->       <!-- insert Picture -->
+            <div className="photo">
+            <!-- Insert Picture       insert Picture -->
+            </div>
           <p>Hey! Welcome everyone im Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! Alot of content I like to play in VR and stream.<p>
           <p>I would love for you to stop by, and if you have an Oculus Headset maybe you can join too!<p>
           <p>Here is a small list of titles I spend time on.</p> 
@@ -39,6 +40,7 @@ function App() {
               <!-- Insert Title Photo -->
            <h3 className="stream-titles"> Fortnite </h3>
               <!-- Insert Title Photo -->
+          </div>
         </div>
 
       <footer className='App-Footer'>
