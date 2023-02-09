@@ -5,7 +5,7 @@ import './styles/globalstyles.css';
 //Import componenets
 import Navbar from './components/Navbar/Navbar'
 //replace with VRChat 3d modal
-import vrchatModal from './src/assets/pictures/tehbeasto.png';
+import vrchatModal from './assets/pictures/tehbeasto.png'
 
 function App() {
   return (
