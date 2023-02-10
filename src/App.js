@@ -5,10 +5,14 @@ import './styles/globalstyles.css';
 //Import componenets
 import Navbar from './components/Navbar/Navbar'
 //replace with VRChat 3d modal
-import vrchatModal from './assets/pictures/tehbeasto.png'
-import vrchatTitle from './assets/vrchat_title.jpg'
-import narutoTitle from './assets/naruto_title.jpg'
-import fortniteTitle from './assets/fortnite_title.jpg'
+import vrchatModal from './assets/pictures/tehbeasto.png';
+import vrchatTitle from './assets/vrchat_title.jpg';
+import narutoTitle from './assets/naruto_title.jpg';
+import fortniteTitle from './assets/fortnite_title.jpg';
+
+import vrchatPhoto from './assets/vrchat_photo.png';
+import fortnitePhoto from './assets/fortnite_photo.png'
+import
 
 function App() {
   return (
@@ -32,8 +36,8 @@ function App() {
           </h2>
           <div className="stream-photos">
             <div className="photo">
-              <p> Insert Photo </p> 
-              <p> Insert Photo </p>
+            <img src={vrchatPhoto} className="photo-image" alt="Vrchat Photo" />
+            <img src={fortnitePhoto} className="photo-image" alt="Fortnite Photo" />
             </div>
           <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! Alot of content I like to play in VR and stream.</p>
           <p>I would love for you to stop by, and if you have an Oculus Headset, maybe you can join too!</p>

@@ -14,6 +14,14 @@ body {
   height: 45vmin;
   width: 80vmin;
 }
+.photo {
+  display: flex;
+  flex-direction: row;
+}
+.photo-image {
+  height: 35vmin;
+  width: 30vmin;
+}
 .App-Logo-Text {
   font-size: 40px;
   font-weight: bold;
