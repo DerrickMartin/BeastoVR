@@ -31,7 +31,7 @@ function App() {
         </div>
         <div className="stream-section">
           <h2 className="twitch-youtube">
-            Steaming in VR
+            Streaming in VR
           </h2>
           <div className="stream-photos">
             <div className="photo">
