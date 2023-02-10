@@ -36,11 +36,11 @@ function App() {
           <p>I would love for you to stop by, and if you have an Oculus Headset, maybe you can join too!</p>
           <p>Here is a small list of titles I spend time on.</p> 
            <h3 className="stream-titles"> VrChat </h3>
-            <p> Insert Photo </p>
+            <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
            <h3 className="stream-titles"> Naruto Ultimate Ninja Storm 4 </h3>
-            <p> Insert Photo </p>
+            <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
            <h3 className="stream-titles"> Fortnite </h3>
-            <p> Insert Photo </p>
+            <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
         </div>
       </div>
 
