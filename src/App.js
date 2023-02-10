@@ -6,6 +6,8 @@ import './styles/globalstyles.css';
 import Navbar from './components/Navbar/Navbar'
 //replace with VRChat 3d modal
 import vrchatModal from './assets/pictures/tehbeasto.png'
+import vrchatTitle from './assets/vrchat_title.jpg'
+import narutoTitle from './assets/naruto_title.jpg'
 import fortniteTitle from './assets/fortnite_title.jpg'
 
 function App() {
@@ -37,9 +39,9 @@ function App() {
           <p>I would love for you to stop by, and if you have an Oculus Headset, maybe you can join too!</p>
           <p>Here is a small list of titles I spend time on.</p> 
            <h3 className="stream-titles"> VrChat </h3>
-            <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
+            <img src={vrchatTitle} className="App-logo" alt="TehBeasto Modal" />
            <h3 className="stream-titles"> Naruto Ultimate Ninja Storm 4 </h3>
-            <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
+            <img src={NarutoTitle} className="App-logo" alt="TehBeasto Modal" />
            <h3 className="stream-titles"> Fortnite </h3>
             <img src={fortniteTitle} className="App-logo" alt="Fortnite Title" />
         </div>
