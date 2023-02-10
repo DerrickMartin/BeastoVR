@@ -11,8 +11,7 @@ import narutoTitle from './assets/naruto_title.jpg';
 import fortniteTitle from './assets/fortnite_title.jpg';
 
 import vrchatPhoto from './assets/vrchat_photo.png';
-import fortnitePhoto from './assets/fortnite_photo.png'
-import
+import fortnitePhoto from './assets/fortnite_photo.png';
 
 function App() {
   return (
