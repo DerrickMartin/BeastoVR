@@ -41,7 +41,7 @@ function App() {
            <h3 className="stream-titles"> VrChat </h3>
             <img src={vrchatTitle} className="App-logo" alt="TehBeasto Modal" />
            <h3 className="stream-titles"> Naruto Ultimate Ninja Storm 4 </h3>
-            <img src={NarutoTitle} className="App-logo" alt="TehBeasto Modal" />
+            <img src={narutoTitle} className="App-logo" alt="TehBeasto Modal" />
            <h3 className="stream-titles"> Fortnite </h3>
             <img src={fortniteTitle} className="App-logo" alt="Fortnite Title" />
         </div>
