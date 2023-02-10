@@ -10,6 +10,10 @@ body {
   height: 40vmin;
   pointer-events: none;
 }
+.title-image {
+  height: 50vmin;
+  width: 110vmin;
+}
 .App-Logo-Text {
   font-size: 40px;
   font-weight: bold;
