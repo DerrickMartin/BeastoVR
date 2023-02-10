@@ -10,8 +10,8 @@ import vrchatTitle from './assets/vrchat_title.jpg';
 import narutoTitle from './assets/naruto_title.jpg';
 import fortniteTitle from './assets/fortnite_title.jpg';
 
-import vrchatPhoto from './assets/vrchat_photo.png';
-import fortnitePhoto from './assets/fortnite_photo.png';
+import vrchat from './assets/vrchat_photo.png';
+import fortnite from './assets/fortnite_photo.png';
 
 function App() {
   return (
@@ -20,8 +20,9 @@ function App() {
       <body className="App-Body">
         <div className="hero-section">
           <div className="left-hero">
-            <p>
+            <p className='hero-text-1'>
             Welcome,
+            </p><p className='hero-text-2'>
             はじめまして
             </p>
           </div>
@@ -35,8 +36,8 @@ function App() {
           </h2>
           <div className="stream-photos">
             <div className="photo">
-            <img src={vrchatPhoto} className="photo-image" alt="Vrchat Photo" />
-            <img src={fortnitePhoto} className="photo-image" alt="Fortnite Photo" />
+            <img src={vrchat} className="photo-image" alt="Vrchat Photo" />
+            <img src={fortnite} className="photo-image" alt="Fortnite Photo" />
             </div>
           <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! Alot of content I like to play in VR and stream.</p>
           <p>I would love for you to stop by, and if you have an Oculus Headset, maybe you can join too!</p>
@@ -51,7 +52,7 @@ function App() {
       </div>
 
       <footer className='App-Footer'>
-        <p className="App-Logo-Text">テベ-スと</p>
+        <p className="App-Logo-Text">テビ -スと</p>
         <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>
         <div bottom-links>
           <a href="www.tehbeasto.cloud">Home</a> 

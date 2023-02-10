@@ -13,11 +13,12 @@ function Navbar() {
                         className="App-Logo-Text"
                         href="https://www.tehbeasto.cloud"
                         target="_blank"
-                        rel="noopener noreferrer">テベ-スと
+                        rel="noopener noreferrer">テビ-スと
                     </a>
                 </h1>
             </div>
             <div className='header-links'>
+                <p className="mobile-nav-links">menu</p>
                 <ul className="web-nav-links">
                     <li>Avatars</li>
                     <li>Worlds</li>
