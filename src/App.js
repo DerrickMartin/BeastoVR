@@ -6,7 +6,7 @@ import './styles/globalstyles.css';
 import Navbar from './components/Navbar/Navbar'
 //replace with VRChat 3d modal
 import vrchatModal from './assets/pictures/tehbeasto.png'
-import fortniteTitle from './assets/fortnite_title.jpeg'
+import fortniteTitle from './assets/fortnite_title.jpg'
 
 function App() {
   return (
