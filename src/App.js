@@ -6,6 +6,7 @@ import './styles/globalstyles.css';
 import Navbar from './components/Navbar/Navbar'
 //replace with VRChat 3d modal
 import vrchatModal from './assets/pictures/tehbeasto.png'
+import fortniteTitle from './assets/fortnite_title.jpeg'
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
            <h3 className="stream-titles"> Naruto Ultimate Ninja Storm 4 </h3>
             <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
            <h3 className="stream-titles"> Fortnite </h3>
-            <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
+            <img src={fortniteTitle} className="App-logo" alt="Fortnite Title" />
         </div>
       </div>
 
