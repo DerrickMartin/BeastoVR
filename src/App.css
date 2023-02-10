@@ -42,7 +42,7 @@ body {
 }
 .App-Footer {
   background-color: #212227;
-  min-height: 50px;
+  min-height: 100px;
   width: 100vw;
   position: relative;
   bottom: 0;
