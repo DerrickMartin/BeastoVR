@@ -4,6 +4,7 @@ import './App.css';
 import './styles/globalstyles.css';
 //Import componenets
 import Navbar from './components/Navbar/Navbar'
+Import TwitchSVG from './components/svgs/TwitchSvg'
 //replace with VRChat 3d modal
 import vrchatModal from './assets/pictures/tehbeasto.png';
 import vrchatTitle from './assets/vrchat_title.jpg';
@@ -60,6 +61,7 @@ function App() {
           <a href="www.tehbeasto.cloud">Worlds</a>
           <a href="www.tehbeasto.cloud">Clothes</a>
           <a href="www.tehbeasto.cloud">Social Media Icons</a>
+          <TwitchSVG />
         </div>
       </footer>
 
