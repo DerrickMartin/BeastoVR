@@ -1,4 +1,6 @@
 social-media {
-  width: 15px;
-  height: 15px;
+  display: flex;
+  width: 10px;
+  height: 10px;
+
 }
