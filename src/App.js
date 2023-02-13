@@ -63,7 +63,6 @@ function App() {
           <a href="www.tehbeasto.cloud">Clothes</a>
           <a href="www.tehbeasto.cloud">Social Media Icons</a>
           <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />
-          <TwitchSVG />
         </div>
       </footer>
 
