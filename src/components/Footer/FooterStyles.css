@@ -1,0 +1,22 @@
+.App-Footer {
+  background-color: #212227;
+  min-height: 100px;
+  width: 100vw;
+  position: relative;
+  bottom: 0;
+}
+.App-Logo-Text {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.bottom-links {
+  flex-direction: row;
+  margin: 10px;
+  color: #B1B1B1;
+}
+.social-media {
+  display: flex;
+  width: 10px;
+  height: 10px;
+}

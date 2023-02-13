@@ -5,8 +5,7 @@ import './styles/globalstyles.css';
 
 //Import componenets
 import Navbar from './components/Navbar/Navbar';
-import './components/Footer/footer.css';
-import TwitchSVG from './components/svgs/TwitchSvg';
+import FooterSection from './componenets/Footer/FooterSection';
 //replace with VRChat 3d modal
 import vrchatModal from './assets/pictures/tehbeasto.png';
 
@@ -56,18 +55,7 @@ function App() {
         </div>
       </div>
 
-      <footer className='App-Footer'>
-        <p className="App-Logo-Text">テビ -スと</p>
-        <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>
-        <div bottom-links>
-          <a href="www.tehbeasto.cloud">Home</a> 
-          <a href="www.tehbeasto.cloud">Contact Us </a>
-          <a href="www.tehbeasto.cloud">Worlds</a>
-          <a href="www.tehbeasto.cloud">Clothes</a>
-          <a href="www.tehbeasto.cloud">Social Media Icons</a>
-          <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />
-        </div>
-      </footer>
+      <FooterSection />
 
     </body>
    </div>

@@ -32,11 +32,6 @@ body {
   height: 35vmin;
   width: 35vmin;
 }
-.App-Logo-Text {
-  font-size: 40px;
-  font-weight: bold;
-  margin-left: 10px;
-}
 .App-link {
   color: #61dafb;
 }
@@ -74,16 +69,4 @@ body {
 .right-hero {
   width: 70%;
   padding-top: 50px;
-}
-.App-Footer {
-  background-color: #212227;
-  min-height: 100px;
-  width: 100vw;
-  position: relative;
-  bottom: 0;
-}
-.bottom-links {
-  flex-direction: row;
-  margin: 10px;
-  color: #B1B1B1;
 }
