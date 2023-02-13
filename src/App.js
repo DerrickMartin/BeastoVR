@@ -5,7 +5,7 @@ import './styles/globalstyles.css';
 
 //Import componenets
 import Navbar from './components/Navbar/Navbar';
-import FooterSection from './componenets/Footer/FooterSection';
+import FooterSection from './components/Footer/FooterSection';
 //replace with VRChat 3d modal
 import vrchatModal from './assets/pictures/tehbeasto.png';
 
@@ -26,7 +26,8 @@ function App() {
           <div className="left-hero">
             <p className='hero-text-1'>
             Welcome,
-            </p><p className='hero-text-2'>
+            </p>
+            <p className='hero-text-2'>
             はじめまして
             </p>
           </div>
