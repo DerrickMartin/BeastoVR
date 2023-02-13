@@ -2,9 +2,11 @@
 import './App.css';
 
 import './styles/globalstyles.css';
+
 //Import componenets
-import Navbar from './components/Navbar/Navbar'
-import TwitchSVG from './components/svgs/TwitchSvg'
+import Navbar from './components/Navbar/Navbar';
+Import './components/Footer/footer.css';
+import TwitchSVG from './components/svgs/TwitchSvg';
 //replace with VRChat 3d modal
 import vrchatModal from './assets/pictures/tehbeasto.png';
 import twitch from './assets/pictures/Twitchpng.png';
