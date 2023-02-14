@@ -14,7 +14,7 @@ function Navbar() {
                         href="https://www.tehbeasto.cloud"
                         target="_blank"
                         rel="noopener noreferrer">
-                            <img src={NavLogo} className="Logo" alt="TehBeasto Logo" />
+                            <img src={NavLogo} className="LogoIcon" alt="TehBeasto Logo" />
                     </a>
                 </h1>
             </div>
