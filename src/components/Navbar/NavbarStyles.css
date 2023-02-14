@@ -16,8 +16,8 @@
   background-color: chocolate;
   }
 .LogoIcon {
-  height: 20px;
-  width: 300px;
+  height: 25px;
+  width: 100px;
   background-color: cadetblue;
 }
 .header-links {
@@ -48,5 +48,10 @@
   }
   .header-links {
     display: inline-block;
+  }
+  .LogoIcon {
+    height: 30px;
+    width: 200px;
+    background-color: cadetblue;
   }
 }
