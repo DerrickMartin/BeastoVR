@@ -11,14 +11,12 @@
 .Logo {
   align-items: left;
   justify-content: left;
-  width: 25%;
-  padding-bottom: 10px;
-  background-color: chocolate;
+  width: 27%;
+  padding-bottom: 8px;
   }
 .LogoIcon {
-  height: 25px;
+  height: 27px;
   width: 100px;
-  background-color: cadetblue;
 }
 .header-links {
     justify-content: center;
@@ -50,6 +48,7 @@
     height: 40px;
     width: 180px;
     background-color: cadetblue;
+    margin-bottom: 10px;
   }
   .Logo {
     width: 22%;
