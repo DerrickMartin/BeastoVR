@@ -2,6 +2,7 @@ import { React } from "react";
 import './NavbarStyles.css';
 
 import '../../styles/globalstyles.css';
+import NavLogo from '../../assets/Logo.png';
 
 function Navbar() {
 
@@ -13,7 +14,8 @@ function Navbar() {
                         className="App-Logo-Text"
                         href="https://www.tehbeasto.cloud"
                         target="_blank"
-                        rel="noopener noreferrer">テビ-スと
+                        rel="noopener noreferrer">
+                            <img src={NavLogo} className="Logo" alt="TehBeasto Logo" />
                     </a>
                 </h1>
             </div>
