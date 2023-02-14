@@ -11,7 +11,7 @@
 .Logo {
   align-items: left;
   justify-content: left;
-  width: 30%;
+  width: 25%;
   padding-bottom: 10px;
   background-color: chocolate;
   }
@@ -23,7 +23,7 @@
 .header-links {
     justify-content: center;
     align-items: right;
-    width: 60%;    
+    width: 65%;    
     align-items: flex-end;
 }
 .mobile-nav-links {
@@ -46,12 +46,15 @@
     font-weight: bold;
     padding: 5px, 5px, 5px, 5px;
   }
+  .LogoIcon {
+    height: 40px;
+    width: 180px;
+    background-color: cadetblue;
+  }
+  .Logo {
+    width: 22%;
+  }
   .header-links {
     display: inline-block;
-  }
-  .LogoIcon {
-    height: 30px;
-    width: 200px;
-    background-color: cadetblue;
   }
 }
