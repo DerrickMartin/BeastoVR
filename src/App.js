@@ -8,8 +8,6 @@ import Navbar from './components/Navbar/Navbar';
 import FooterSection from './components/Footer/FooterSection';
 //replace with VRChat 3d modal
 import vrchatModal from './assets/pictures/tehbeasto.png';
-
-import twitch from './assets/pictures/Twitchpng.png';
 import vrchatTitle from './assets/vrchat_title.jpg';
 import narutoTitle from './assets/naruto_title.jpg';
 import fortniteTitle from './assets/fortnite_title.jpg';

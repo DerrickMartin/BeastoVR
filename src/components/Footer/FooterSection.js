@@ -2,7 +2,7 @@ import { React } from "react";
 import './FooterStyles.css';
 
 import '../../styles/globalstyles.css';
-import TwitchSVG from '../svgs/TwitchSvg';
+import twitch from '../../assets/pictures/Twitchpng.png';
 
 function FooterSection() {
 
@@ -17,6 +17,7 @@ function FooterSection() {
                 <a href="www.tehbeasto.cloud">Clothes</a>
                 <a href="www.tehbeasto.cloud">Social Media Icons</a>
                 <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />
+
             </div>
         </footer>
         )
