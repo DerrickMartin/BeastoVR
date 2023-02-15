@@ -10,7 +10,7 @@
 
 .col1 {
   width: 100%;
-  background-color: tomato;
+  flex-direction: row;
 }
 
 .bottom-links {
