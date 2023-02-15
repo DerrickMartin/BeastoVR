@@ -4,16 +4,21 @@
   width: 100vw;
   position: relative;
   bottom: 0;
+  display: flex;
 }
-.App-Logo-Text {
-  font-size: 40px;
-  font-weight: bold;
-  margin-left: 10px;
-}
+
 .bottom-links {
   flex-direction: row;
   margin: 10px;
   color: #B1B1B1;
+  width: 100%;
+
+}
+.footerNav {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 

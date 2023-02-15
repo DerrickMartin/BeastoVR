@@ -11,12 +11,10 @@ function FooterSection() {
         <footer className='App-Footer'>
            <img src={FooterLogo} className="LogoIcon" alt="TehBeasto Logo" />
             <div className="bottom-links">
-                <a href="www.tehbeasto.cloud">Home</a> 
-                <a href="www.tehbeasto.cloud">Contact Us </a>
-                <a href="www.tehbeasto.cloud">Worlds</a>
-                <a href="www.tehbeasto.cloud">Clothes</a>
-                <a href="www.tehbeasto.cloud">Social Media Icons</a>
-                
+                <a className="footerNav" href="www.tehbeasto.cloud">Home</a> 
+                <a className="footerNav" href="www.tehbeasto.cloud">Contact Us </a>
+                <a className="footerNav" href="www.tehbeasto.cloud">Worlds</a>
+                <a className="footerNav" href="www.tehbeasto.cloud">Clothes</a>                
             </div>
             <div className="copywriteSocialLinks">
             <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>
