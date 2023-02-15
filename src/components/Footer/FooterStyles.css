@@ -34,6 +34,8 @@
 .social-links{
   width: 50%;
   background-color: tomato;
+  position: absolute;
+  right: 0;
 }
 .social-media {
   width: 40px;
@@ -43,6 +45,7 @@
 @media only screen and (min-width: 721px) {
 .social-media {
   display: flex;
+  flex-direction: row;
   width: 60px;
   height: 60px;
 }
@@ -56,8 +59,9 @@
 
 }
 .social-links {
+  display: flex;
   background-color: burlywood;
   width: 40%;
-  flex-direction: row-reverse;
+  flex-direction: row;
 }
 }
