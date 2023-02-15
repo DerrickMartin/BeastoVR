@@ -3,10 +3,9 @@ import './FooterStyles.css';
 
 import '../../styles/globalstyles.css';
 import FooterLogo from '../../assets/Logo.png';
-import twitch from '../../assets/pictures/Twitchpng.png';
 import tiktoc from '../../assets/pictures/3dtiktoc.png';
 import youtube from '../../assets/pictures/3dyoutube.png';
-import twitch3d from '../../assets/pictures/3dtwitch.png';
+import twitch from '../../assets/pictures/3dtwitch.png';
 
 function FooterSection() {
 
@@ -24,9 +23,8 @@ function FooterSection() {
             <div className="copywrite">
               <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>        
             </div>
-            <div className="social-links">
-                <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />  
-                <img src={twitch3d} className="social-media" alt="TehBeasto's Twitch" /> 
+            <div className="social-links"> 
+                <img src={twitch} className="social-media" alt="TehBeasto's Twitch" /> 
                 <img src={tiktoc} className="social-media" alt="TehBeasto's Twitch" />  
                 <img src={youtube} className="social-media" alt="TehBeasto's Twitch" /> 
               </div> 

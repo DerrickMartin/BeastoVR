@@ -17,8 +17,7 @@
   flex-direction: row;
   margin: 10px;
   color: #B1B1B1;
-  width: 70%;
-
+  width: 100%;
 }
 .footerNav {
   padding-left: 10px;
@@ -34,7 +33,7 @@
   width: 50%;
   position: relative;
   align-items: right;
-  flex-direction: row-reverse;
+  margin-left: 50%;
 
 }
 .social-media {
@@ -56,19 +55,18 @@
   width: 180px;
 }
 .copywrite {
-  background-color: bisque;
   width: 60%;
-  height: 55px;
+  height: 65px;
   padding-bottom: 5px;
 }
 .social-links {
   display: flex;
-  background-color: burlywood;
   width: 40%;
   flex-direction: row;
   position: absolute;
   right: 0;
   bottom: 0;
   flex-flow: row-reverse;
+  padding-right: 15px;
 }
 }
