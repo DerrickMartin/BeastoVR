@@ -4,6 +4,9 @@ import './FooterStyles.css';
 import '../../styles/globalstyles.css';
 import FooterLogo from '../../assets/Logo.png';
 import twitch from '../../assets/pictures/Twitchpng.png';
+import tiktoc from '../../assets/pictures/3dtiktoc.png';
+import youtube from '../../assets/pictures/3dyoutube.png';
+import twitch3d from '../../assets/pictures/3dtwitch.png';
 
 function FooterSection() {
 
