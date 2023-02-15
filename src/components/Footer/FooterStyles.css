@@ -46,8 +46,8 @@
 .social-media {
   display: flex;
   flex-direction: row;
-  width: 55px;
-  height: 55px;
+  width: 35px;
+  height: 35px;
   padding-bottom: 5px;
 }
 .LogoIcon {
@@ -55,7 +55,7 @@
   width: 180px;
 }
 .copywrite {
-  width: 60%;
+  width: 30%;
   height: 65px;
   padding-bottom: 5px;
 }
@@ -64,8 +64,8 @@
   width: 40%;
   flex-direction: row;
   position: absolute;
-  right: 0;
-  bottom: 0;
+  right: 10;
+  bottom: 10;
   flex-flow: row-reverse;
   padding-right: 15px;
 }
