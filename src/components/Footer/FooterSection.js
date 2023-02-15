@@ -21,7 +21,7 @@ function FooterSection() {
                 <a className="footerNav" href="www.tehbeasto.cloud">Clothes</a>                
             </div>
           </div>
-            <div className="copywriteSocialLinks">
+            <div className="copywrite">
               <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>        
             </div>
             <div className="social-links">
