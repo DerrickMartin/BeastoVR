@@ -38,16 +38,18 @@
   right: 0;
 }
 .social-media {
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
+  padding: 0,4,4,4;
 }
 
 @media only screen and (min-width: 721px) {
 .social-media {
   display: flex;
   flex-direction: row;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
+  padding-bottom: 5px;
 }
 .LogoIcon {
   height: 40px;
@@ -56,6 +58,7 @@
 .copywriteSocialLinks {
   background-color: bisque;
   width: 60%;
+  height: 30;
 
 }
 .social-links {
