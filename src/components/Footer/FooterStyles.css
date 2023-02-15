@@ -34,7 +34,7 @@
 .social-links{
   width: 50%;
   background-color: tomato;
-  position: absolute;
+  position: relative;
   right: 0;
 }
 .social-media {
@@ -63,5 +63,8 @@
   background-color: burlywood;
   width: 40%;
   flex-direction: row;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 }
