@@ -14,11 +14,6 @@ body {
   text-align: center;
   width: 100vw;
 }
-.App-logo {
-  height: 60vmin;
-  width: 70%;
-  pointer-events: none;
-}
 .title-image {
   height: 45vmin;
   width: 80vmin;
@@ -44,29 +39,4 @@ body {
   width: 100%;
   height: 1450px;
   font-size: 16px;
-}
-.hero-section {
-  flex-direction: row;
-  display: flex;
-  height: 500px;
-  margin-top: 40px;
-}
-.left-hero {
-  width: 30%;
-  font-size: 22px;
-  font-weight: bold;
-  justify-content: center;
-  align-items: center;
-  padding-top: 50px;
-  padding-left: 20px;
-}
-.hero-text-1 {
-  padding-right: 90px;
-}
-.hero-text-2 {
-  padding-left: 20px;
-}
-.right-hero {
-  width: 70%;
-  padding-top: 50px;
 }

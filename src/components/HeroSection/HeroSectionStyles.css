@@ -1,0 +1,30 @@
+.App-logo {
+  height: 60vmin;
+  width: 60%;
+  pointer-events: none;
+}
+.hero-section {
+  flex-direction: row;
+  display: flex;
+  height: 500px;
+  margin-top: 40px;
+}
+.left-hero {
+  width: 30%;
+  font-size: 22px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 20px;
+}
+.hero-text-1 {
+  padding-right: 95px;
+}
+.hero-text-2 {
+  padding-left: 10px;
+}
+.right-hero {
+  width: 70%;
+  padding-top: 50px;
+}
