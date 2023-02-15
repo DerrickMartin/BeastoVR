@@ -1,7 +1,7 @@
 .App-Footer {
   background-color: #212227;
   min-height: 100px;
-  width: 100vw;
+  width: 100%;
   position: relative;
   bottom: 0;
   display: flex;
@@ -21,7 +21,7 @@
   font-size: 18px;
 }
 .copywriteSocialLinks {
-  background-color: bisque;
+  background-color: green;
   width: 100%;
   flex-direction: row;
 }

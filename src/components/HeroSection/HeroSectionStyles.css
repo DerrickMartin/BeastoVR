@@ -28,3 +28,15 @@
   width: 70%;
   padding-top: 50px;
 }
+
+@media only screen and (min-width: 721px) {
+  .right-hero {
+    width: 60%;
+    padding-top: 50px;
+  }
+  .App-logo {
+    height: 50vmin;
+    width: 50%;
+    pointer-events: none;
+  }
+}
