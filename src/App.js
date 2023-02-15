@@ -27,8 +27,8 @@ function App() {
           </h2>
           <div className="stream-photos">
             <div className="photo">
-            <img src={vrchat} className="photo-image" alt="Vrchat Photo" />
-            <img src={fortnite} className="photo-image" alt="Fortnite Photo" />
+            <img src={vrchat} className="photo-image" alt="Vrchat" />
+            <img src={fortnite} className="photo-image" alt="Fortnite" />
             </div>
           <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! Alot of content I like to play in VR and stream.</p>
           <p>I would love for you to stop by, and if you have an Oculus Headset, maybe you can join too!</p>
