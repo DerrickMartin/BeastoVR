@@ -24,7 +24,8 @@ function FooterSection() {
             <div className="copywriteSocialLinks">
             <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>
               <div className="social-links">
-                <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />   
+                <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />  
+                <img src={twitch3d} className="social-media" alt="TehBeasto's Twitch" /> 
                 <img src={tiktoc} className="social-media" alt="TehBeasto's Twitch" />  
                 <img src={youtube} className="social-media" alt="TehBeasto's Twitch" /> 
               </div>          
