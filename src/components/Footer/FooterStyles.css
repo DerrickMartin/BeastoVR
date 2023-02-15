@@ -54,19 +54,26 @@
   height: 40px;
   width: 180px;
 }
+.footerNav {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 20px;
+}
 .copywrite {
   width: 30%;
   height: 65px;
   padding-bottom: 5px;
+  font-size: 20px;
 }
 .social-links {
   display: flex;
   width: 40%;
   flex-direction: row;
   position: absolute;
-  right: 10;
-  bottom: 10;
+  right: 5px;
+  bottom: 2px;
   flex-flow: row-reverse;
   padding-right: 15px;
+  padding-bottom: 10px;
 }
 }
