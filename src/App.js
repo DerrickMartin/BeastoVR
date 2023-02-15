@@ -5,9 +5,9 @@ import './styles/globalstyles.css';
 
 //Import componenets
 import Navbar from './components/Navbar/Navbar';
+import HeroSection from './components/HeroSection/HeroSection';
 import FooterSection from './components/Footer/FooterSection';
 //replace with VRChat 3d modal
-import vrchatModal from './assets/pictures/tehbeasto.png';
 import vrchatTitle from './assets/vrchat_title.jpg';
 import narutoTitle from './assets/naruto_title.jpg';
 import fortniteTitle from './assets/fortnite_title.jpg';
@@ -20,19 +20,7 @@ function App() {
     <div className="App">
       <Navbar />
       <body className="App-Body">
-        <div className="hero-section">
-          <div className="left-hero">
-            <p className='hero-text-1'>
-            Welcome,
-            </p>
-            <p className='hero-text-2'>
-            はじめまして
-            </p>
-          </div>
-          <div className="right-hero">
-            <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
-          </div> 
-        </div>
+        <HeroSection />
         <div className="stream-section">
           <h2 className="twitch-youtube">
             Streaming in VR
@@ -53,9 +41,7 @@ function App() {
             <img src={fortniteTitle} className="title-image" alt="Fortnite Title" />
         </div>
       </div>
-
       <FooterSection />
-
     </body>
    </div>
   );
