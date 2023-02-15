@@ -5,6 +5,12 @@
   position: relative;
   bottom: 0;
   display: flex;
+  
+}
+
+.col1 {
+  width: 100%;
+  background-color: tomato;
 }
 
 .bottom-links {

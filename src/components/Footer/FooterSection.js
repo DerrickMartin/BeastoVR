@@ -9,6 +9,7 @@ function FooterSection() {
 
         return (
         <footer className='App-Footer'>
+          <div className="col1" >
            <img src={FooterLogo} className="LogoIcon" alt="TehBeasto Logo" />
             <div className="bottom-links">
                 <a className="footerNav" href="www.tehbeasto.cloud">Home</a> 
@@ -16,6 +17,7 @@ function FooterSection() {
                 <a className="footerNav" href="www.tehbeasto.cloud">Worlds</a>
                 <a className="footerNav" href="www.tehbeasto.cloud">Clothes</a>                
             </div>
+          </div>
             <div className="copywriteSocialLinks">
             <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>
               <div className="social-links">
