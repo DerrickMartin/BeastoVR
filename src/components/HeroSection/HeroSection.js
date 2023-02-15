@@ -2,6 +2,7 @@ import { React } from "react";
 import './HeroSectionStyles.css';
 
 import '../../styles/globalstyles.css';
+import vrchatModal from '../../assets/pictures/tehbeasto.png';
 
 
 function HeroSection() {
