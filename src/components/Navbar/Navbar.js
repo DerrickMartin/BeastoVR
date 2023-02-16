@@ -23,7 +23,12 @@ function Navbar() {
                 <Hamburger toggled={isOpen} toggle={setOpen} />
                 </div>
                 <ul className="web-nav-links">
-                    <li>Avatars</li>
+                <a
+                    className="web-links"
+                    href="https://www.tehbeasto.cloud"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    <li>Avatars</li></a>
                     <li>Worlds</li>
                     <li>Clothes</li>
                 </ul>
