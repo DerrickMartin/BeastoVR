@@ -1,11 +1,13 @@
-import { React } from "react";
+import { React, useState } from "react";
 import './NavbarStyles.css';
+// import hamburger menu
+import Hamburger from 'hamburger-react'
 
 import '../../styles/globalstyles.css';
 import NavLogo from '../../assets/Logo.png';
 
 function Navbar() {
-
+    const [isOpen, setOpen] = useState(false)
         return (
         <header className='app-header'>
             <div className='Logo'>
@@ -19,7 +21,7 @@ function Navbar() {
                 </h1>
             </div>
             <div className='header-links'>
-                <p className="mobile-nav-links">menu</p>
+                <Hamburger toggled={isOpen} toggle={setOpen} />
                 <ul className="web-nav-links">
                     <li>Avatars</li>
                     <li>Worlds</li>
