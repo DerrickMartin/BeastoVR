@@ -21,7 +21,7 @@
 .header-links {
     justify-content: center;
     align-items: right;
-    width: 70%;    
+    width: 20%;    
     align-items: flex-end;
 }
 .mobile-nav-links {
@@ -54,5 +54,7 @@
   }
   .header-links {
     display: inline-block;
+    text-decoration: none;
+    width: 60%;
   }
 }
