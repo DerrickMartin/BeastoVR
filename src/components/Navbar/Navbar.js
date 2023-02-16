@@ -28,9 +28,23 @@ function Navbar() {
                     href="https://www.tehbeasto.cloud"
                     target="_blank"
                     rel="noopener noreferrer">
-                    <li>Avatars</li></a>
-                    <li>Worlds</li>
+                    
+                        <li>Avatars</li>
+                </a>
+                <a
+                    className="web-links"
+                    href="https://www.tehbeasto.cloud"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                        <li>Worlds</li>
+                </a>
+                <a
+                    className="web-links"
+                    href="https://www.tehbeasto.cloud"
+                    target="_blank"
+                    rel="noopener noreferrer">
                     <li>Clothes</li>
+                </a>
                 </ul>
             </div>
 
