@@ -1,7 +1,7 @@
 .app-header {
     min-height: 15px;
     height: 55px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     flex-direction: row;
     font-size: calc(6px + 1vmin);
@@ -12,7 +12,7 @@
   align-items: left;
   justify-content: left;
   width: 30%;
-  padding-top: 8px;
+  padding-top: 10px;
   padding-bottom: 8px;
   }
 .LogoIcon {
@@ -36,7 +36,6 @@
   padding-left: 100px;
 }
 
-
 @media only screen and (max-width: 720px) { 
   .web-nav-links {
     display: none;
@@ -49,13 +48,9 @@
   }
   li {
     display: inline-flex;
-    font-size: 22;
+    font-size: 30;
     font-weight: bold;
-  }
-   .App-Logo-Text{
-    font-size: 23px;
-    font-weight: bold;
-    padding: 5px, 5px, 5px, 5px;
+    padding: 5px;
   }
   .LogoIcon {
     height: 40px;
@@ -63,7 +58,7 @@
     margin-bottom: 45px;
   }
   .Logo {
-    width: 22%;
+    width: 25%;
   }
   .header-links {
     display: inline-block;
