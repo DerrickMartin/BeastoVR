@@ -31,7 +31,7 @@ function App() {
             <img src={fortnite} className="photo-image" alt="Fortnite" />
             </div>
           <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! Alot of content I like to play in VR and stream.</p>
-          <p>I would love for you to stop by, and if you have an Oculus Headset, maybe you can join too!</p>
+          <p>I would love for you to stop by and if you have an Oculus Headset, maybe you can join too!</p>
           <p>Here is a small list of titles I spend time on.</p> 
            <h3 className="stream-titles"> VrChat </h3>
             <img src={vrchatTitle} className="title-image" alt="Vrchat Title" />
