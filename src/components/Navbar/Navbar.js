@@ -19,7 +19,9 @@ function Navbar() {
                     </a>
             </div>
             <div className='header-links'>
+                <div className="mobile-menu">
                 <Hamburger toggled={isOpen} toggle={setOpen} />
+                </div>
                 <ul className="web-nav-links">
                     <li>Avatars</li>
                     <li>Worlds</li>

@@ -20,9 +20,15 @@
 }
 .header-links {
     justify-content: center;
-    align-items: right;
+    background-color: red;
+
     width: 20%;    
     align-items: flex-end;
+}
+.mobile-menu {
+  position: absolute;
+  right: 5px;
+  padding: 3px;
 }
 .mobile-nav-links {
   align-items: flex-end;
