@@ -36,7 +36,10 @@
   }
   .App-logo {
     height: 50vmin;
-    width: 50%;
+    width: 40%;
     pointer-events: none;
+  }
+  .hero-text-2 {
+    padding-left: 4px;
   }
 }

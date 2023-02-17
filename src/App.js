@@ -1,6 +1,10 @@
 
 import './App.css';
 
+//Browser Router v6.4
+import {CreateBrowserRouter, createRoutesFromElements} from 'react-router-dom'
+
+
 import './styles/globalstyles.css';
 
 //Import componenets
@@ -16,6 +20,15 @@ import vrchat from './assets/vrchat_photo.png';
 import fortnite from './assets/fortnite_photo.png';
 
 function App() {
+
+const router = CreateBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<Root />}>
+
+    </Route>
+  )
+)
+
   return (
     <div className="App">
       <Navbar />
@@ -30,7 +43,7 @@ function App() {
             <img src={vrchat} className="photo-image" alt="Vrchat" />
             <img src={fortnite} className="photo-image" alt="Fortnite" />
             </div>
-          <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! Alot of content I like to play in VR and stream.</p>
+          <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! A lot of content I like to play is in VR and stream.</p>
           <p>I would love for you to stop by and if you have an Oculus Headset, maybe you can join too!</p>
           <p>Here is a small list of titles I spend time on.</p> 
            <h3 className="stream-titles"> VrChat </h3>

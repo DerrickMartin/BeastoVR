@@ -76,4 +76,7 @@
   .mobile-menu {
     display: none;
   }
+  .footerNav {
+    padding-right: 5px;
+  }
 }
