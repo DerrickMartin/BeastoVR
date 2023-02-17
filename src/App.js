@@ -2,7 +2,7 @@
 import './App.css';
 
 //Browser Router v6.4
-import {CreateBrowserRouter, createRoutesFromElements} from 'react-router-dom'
+import {CreateBrowserRouter, createRoutesFromElements, Route, Link, Outlet} from 'react-router-dom'
 
 
 import './styles/globalstyles.css';
@@ -24,7 +24,9 @@ function App() {
 const router = CreateBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Root />}>
-
+      <Route index element={<App />} />
+      <Route index element={<App />} />
+      <Route index element={<App />} />
     </Route>
   )
 )
@@ -60,6 +62,19 @@ const router = CreateBrowserRouter(
   );
 }
 
+const Root = () => {
+  return(
+  <>
+  <div>
+    <Link to="/"> Home </Link> 
+    <Link to="/data"> Data </Link>
+  </div>
+  <div>
+    <Outlet />
+  </div>
+</>
+  )
+}
 export default App;
 
 
