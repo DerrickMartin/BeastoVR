@@ -2,8 +2,6 @@
 import './App.css';
 
 //Browser Router v6.4
-import {CreateBrowserRouter, createRoutesFromElements, Route, Link, Outlet} from 'react-router-dom'
-
 
 import './styles/globalstyles.css';
 
@@ -20,16 +18,6 @@ import vrchat from './assets/vrchat_photo.png';
 import fortnite from './assets/fortnite_photo.png';
 
 function App() {
-
-const router = CreateBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<Root />}>
-      <Route index element={<App />} />
-      <Route index element={<App />} />
-      <Route index element={<App />} />
-    </Route>
-  )
-)
 
   return (
     <div className="App">
