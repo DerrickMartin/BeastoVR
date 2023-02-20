@@ -2,6 +2,7 @@
 import './App.css';
 
 //Browser Router v6.4
+//install soon
 
 import './styles/globalstyles.css';
 
@@ -50,19 +51,6 @@ function App() {
   );
 }
 
-const Root = () => {
-  return(
-  <>
-  <div>
-    <Link to="/"> Home </Link> 
-    <Link to="/data"> Data </Link>
-  </div>
-  <div>
-    <Outlet />
-  </div>
-</>
-  )
-}
 export default App;
 
 
