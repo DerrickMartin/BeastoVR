@@ -26,11 +26,12 @@ body {
   justify-content: center;
 }
 .photo-image {
-  height: 35vmin;
-  width: 35vmin;
+  height: 33vmin;
+  width: 33vmin;
 }
 .photo-image-web {
-  display: none;
+  height: 33vmin;
+  width: 33vmin;
 }
 .App-link {
   color: #61dafb;
@@ -46,6 +47,11 @@ body {
   font-size: 16px;
 }
 
+@media only screen and (max-width: 720px) { 
+  .photo-image-web {
+    display: none;
+  }
+}
 
 @media only screen and (min-width: 721px) {
 .twitch-youtube {
@@ -58,5 +64,6 @@ body {
 .photo-image-web {
   height: 33vmin;
   width: 33vmin;
+  display:
 }
 }
