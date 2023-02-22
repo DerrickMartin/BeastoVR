@@ -55,15 +55,17 @@ body {
 
 @media only screen and (min-width: 721px) {
 .twitch-youtube {
-  font-size: 30px
+  font-size: 30px;
 }
 .photo-image {
   height: 33vmin;
   width: 33vmin;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .photo-image-web {
   height: 33vmin;
   width: 33vmin;
-  display:
+  padding-left: 10px;
 }
 }
