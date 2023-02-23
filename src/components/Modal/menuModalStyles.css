@@ -1,7 +1,8 @@
 .wrapper-background {
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 207, 207, 0.233)
+    background-color: rgba(0, 207, 207, 0.233);
+    z-index: 2;
 }
 .btn-modal {
     background-color: tomato;

@@ -8,9 +8,11 @@ import MenuModal from '../Modal/menuModal'
 import '../../styles/globalstyles.css';
 import NavLogo from '../../assets/Logo.png';
 
-function Navbar() {
+export default function Navbar() {
     const [isOpen, setOpen] = useState(false);
-
+    const toggleModal = () => {
+        setOpen(!isOpen)
+        }
         return (
         <header className='app-header'>
             <div className='Logo'>
@@ -23,7 +25,7 @@ function Navbar() {
             </div>
             <div className='header-links'>
                 <div className="mobile-menu">
-                <Hamburger toggled={isOpen} toggle={setOpen} />
+                <Hamburger toggled={isOpen} toggle={setOpen} onClick={toggleModal} />
 
                 {isOpen && MenuModal
                 }
@@ -59,5 +61,4 @@ function Navbar() {
         )
 
 }
- export default Navbar
  
