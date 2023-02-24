@@ -17,10 +17,13 @@ import fortniteTitle from './assets/fortnite_title.jpg';
 
 import vrchat from './assets/vrchat_photo.png';
 import fortnite from './assets/fortnite_photo.png';
+import { BrowserRouter } from "react-router-dom";
+
 
 function App() {
 
   return (
+    <BrowserRouter>
     <div className="App">
       <Navbar />
       <body className="App-Body">
@@ -49,6 +52,7 @@ function App() {
       <FooterSection />
     </body>
    </div>
+   </BrowserRouter>
   );
 }
 

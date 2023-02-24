@@ -32,7 +32,7 @@ function HeroSection() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<Clothing />} />
-          <Route path="dashboard" element={<Dashboard />} />
+          <Route path="dashboard" element={<Worlds />} />
 
           {/* Using path="*"" means "match anything", so this route
                 acts like a catch-all for URLs that we don't have explicit
@@ -63,7 +63,7 @@ function Layout() {
             <Link to="/clothing"></Link>
           </li>
           <li>
-            <Link to="/worlds">Dashboard</Link>
+            <Link to="/worlds">Worlds</Link>
           </li>
           <li>
             <Link to="/nothing-here">Nothing Here</Link>
