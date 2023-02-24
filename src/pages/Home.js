@@ -2,7 +2,6 @@ import '../styles/globalstyles.css';
 import '../App.css';
 
 //Import componenets
-import Navbar from '../components/Navbar/Navbar';
 import HeroSection from '../components/HeroSection/HeroSection';
 import FooterSection from '../components/Footer/FooterSection';
 //replace with VRChat 3d modal
@@ -16,7 +15,6 @@ import fortnite from '../assets/fortnite_photo.png';
 const Home = () => {
     return (
         <div className="App">
-        <Navbar />
         <body className="App-Body">
           <HeroSection />
           <div className="stream-section">
