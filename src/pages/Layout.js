@@ -1,22 +1,13 @@
-import { Outlet, Link } from "react-router-dom";
+import { React, } from "react";
+import './NavbarStyles.css';
+// import hamburger menu
+import { Outlet, } from "react-router-dom";
+import Navbar from '../components/Navbar/Navbar';
 
 const Layout = () => {
   return (
     <>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/worlds">Worlds</Link>
-          </li>
-          <li>
-            <Link to="/clothing">Clothing</Link>
-          </li>
-        </ul>
-      </nav>
-
+      <Navbar />
       <Outlet />
     </>
   )
