@@ -24,8 +24,9 @@ export default function Navbar() {
                 </Link>
             </div>
             <div className='header-links'>
-                <div className="mobile-menu">
-                <Hamburger toggled={isOpen} toggle={setOpen} onClick={toggleModal} />
+                <div onClick={toggleModal}
+                className="mobile-menu">
+                <Hamburger toggled={isOpen} toggle={setOpen} />
 
                 {isOpen && MenuModal
                 }
