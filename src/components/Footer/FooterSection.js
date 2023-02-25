@@ -28,10 +28,10 @@ function FooterSection() {
                 <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />
             </a> 
             <a href="https://www.youtube.com/channel/UCfqS9w3TJ20T4fBFFhpumjQ">
-                <img src={tiktoc} className="social-media" alt="TehBeasto's Twitch" /> 
+                <img src={tiktoc} className="social-media" alt="TehBeasto's TikToc" /> 
             </a>
             <a href="https://www.youtube.com/channel/UCfqS9w3TJ20T4fBFFhpumjQ">     
-                <img src={youtube} className="social-media" alt="TehBeasto's Twitch" /> 
+                <img src={youtube} className="social-media" alt="TehBeasto's Youtube" /> 
             </a>
               </div> 
         </footer>

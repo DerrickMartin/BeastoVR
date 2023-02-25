@@ -1,4 +1,4 @@
-import { React, useState, Button } from "react";
+import { React, useState } from "react";
 import './NavbarStyles.css';
 // import hamburger menu
 import Hamburger from 'hamburger-react'
@@ -24,14 +24,14 @@ export default function Navbar() {
                 </Link>
             </div>
             <div className='header-links'>
-                <Button onClick={toggleModal}
+                <button onClick={toggleModal}
                 className="mobile-menu">
                 <Hamburger toggled={isOpen} toggle={setOpen} />
 
                 {isOpen && MenuModal
                 }
 
-                </Button>
+                </button>
                 <ul className="web-nav-links">
                     <Link to="/worlds"
                     className="route-link">Worlds</Link>
