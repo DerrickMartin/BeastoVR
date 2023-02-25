@@ -24,9 +24,15 @@ function FooterSection() {
               <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>        
             </div>
             <div className="social-links"> 
-                <img src={twitch} className="social-media" alt="TehBeasto's Twitch" /> 
-                <img src={tiktoc} className="social-media" alt="TehBeasto's Twitch" />  
+            <a href="https://www.twitch.tv/teh_beasto">
+                <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />
+            </a> 
+            <a href="https://www.youtube.com/channel/UCfqS9w3TJ20T4fBFFhpumjQ">
+                <img src={tiktoc} className="social-media" alt="TehBeasto's Twitch" /> 
+            </a>
+            <a href="https://www.youtube.com/channel/UCfqS9w3TJ20T4fBFFhpumjQ">     
                 <img src={youtube} className="social-media" alt="TehBeasto's Twitch" /> 
+            </a>
               </div> 
         </footer>
         )
