@@ -6,7 +6,7 @@ import {Entity, Scene} from 'aframe-react';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const Worlds extends React.Component {
+const Worlds = () => {
   constructor(props) {
     super(props);
     this.state = {color: 'red'};
