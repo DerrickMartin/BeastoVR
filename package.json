@@ -38,17 +38,6 @@
       "not dead",
       "not op_mini all"
     ],
-  "keywords": [
-    "aframe",
-    "react",
-    "vr",
-    "boilerplate",
-    "a-frame",
-    "mozvr",
-    "reactvr",
-    "aframe-react",
-    "webvr"
-  ],
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
