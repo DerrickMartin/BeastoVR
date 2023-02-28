@@ -18,4 +18,4 @@ const Avatars = () => {
     )
   };
   
-  export default Clothing;
+  export default Avatars;
