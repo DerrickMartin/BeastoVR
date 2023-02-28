@@ -19,6 +19,7 @@
 .LogoIcon {
   height: 28px;
   width: 100px;
+  padding-right: 15px;
 }
 .header-links {
     justify-content: center;
@@ -81,6 +82,6 @@
   .web-nav-links {
     font-size: 30px;
     padding: 5px;
-    margin:2px;
+    margin:5px;
   }
 }

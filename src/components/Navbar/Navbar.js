@@ -19,7 +19,7 @@ export default function Navbar() {
         return (
         <header className='app-header'>
             <div className='Logo'>
-                <Link to="/">
+                <Link to="/" className="LogoIcon">
                     <img src={NavLogo} className="LogoIcon" alt="TehBeasto Logo" />
                 </Link>
             </div>

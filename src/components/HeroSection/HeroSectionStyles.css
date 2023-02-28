@@ -6,7 +6,7 @@
 .hero-section {
   flex-direction: row;
   display: flex;
-  height: 500px;
+  height: 600px;
   margin-top: 40px;
 }
 .left-hero {
