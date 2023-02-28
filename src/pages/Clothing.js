@@ -1,17 +1,22 @@
-//import iframe from 'react-iframe'
-
 import './ClothingStyles.css'
+import FooterSection from '../components/Footer/FooterSection';
+
 const Clothing = () => {
     return (
-    <div className='avatar-gallery'>
-    <h1>Jump in and check out some cool avatars! </h1>
-
-    <iframe title="Avatar Gallery" name="xmx-loa-sks" src="https://framevr.io/xmx-loa-sks" 
-    height="100%" width="100%"
-     allow="camera;microphone;display-capture;xr-spatial-tracking" 
-     scrolling="no" frameBorder="0" />
-     
+    <>
+    <div className='clothing-section'>
+    <h1>Love the Streams and Videos? Check out the new gear!</h1>
+    <div className="product-card">
+      <p>T-shirt</p>
+      <p>20.00</p>
+    </div>
+    <div className="product-card">
+      <p>Hoodie</p>
+      <p>$55.99</p>
+    </div>
      </div>
+     <FooterSection />
+    </>
     )
   };
   

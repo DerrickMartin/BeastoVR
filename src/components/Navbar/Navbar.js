@@ -36,7 +36,7 @@ export default function Navbar() {
                     <Link to="/worlds"
                     className="route-link">Worlds</Link>
                     <Link to="/clothing">Clothing</Link>
-                    <Link to="/clothing">Avatars</Link>
+                    <Link to="/avatars">Avatars</Link>
                 </ul>
             </div>
         </header>

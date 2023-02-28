@@ -7,6 +7,7 @@ import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Worlds from "./pages/Worlds";
 import Clothing from "./pages/Clothing";
+import Avatars from "./pages/Avatars";
 import NoPage from "./pages/NoPage";
 //install soon
 
@@ -20,6 +21,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="worlds" element={<Worlds />} />
           <Route path="clothing" element={<Clothing />} />
+          <Route path="avatars" element={<Avatars />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
