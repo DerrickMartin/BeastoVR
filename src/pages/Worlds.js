@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Worlds extends Component {
   render () {
     return (
-      <a-scene id="rightHand" hand-controls="hand: right; handModelStyle: highPoly; color: #ffcccc">
+      <a-scene  sphere-collider="objects: a-box;" super-hands id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #ffcccc">
         <a-box 
       grabbable
       position="-1 0.5 -3" 
