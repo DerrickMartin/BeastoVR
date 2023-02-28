@@ -1,5 +1,5 @@
 import '../styles/globalstyles.css';
-import '../App.css';
+import 'HomeStyles.css';
 
 //Import componenets
 import HeroSection from '../components/HeroSection/HeroSection';

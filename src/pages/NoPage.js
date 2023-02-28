@@ -1,5 +1,8 @@
+import errorpage from '../assets/404.jpg';
+
 const NoPage = () => {
-    return <h1>404</h1>;
+    return  <img src={errorpage} className="photo-image" alt="Page not available" />
+    ;
   };
   
   export default NoPage;

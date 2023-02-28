@@ -1,4 +1,3 @@
-
 import './App.css';
 
 //Browser Router v6.4
@@ -13,11 +12,7 @@ import NoPage from "./pages/NoPage";
 
 import './styles/globalstyles.css';
 
-
-
-
 function App() {
-
   return (
     <BrowserRouter>
       <Routes>
@@ -39,11 +34,6 @@ root.render(<App />);
 
 
 /*      
-import logo from './logo.svg';
-
-Default image
-<img src={logo} className="App-logo" alt="logo" />
-
 Css styling (default)
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

@@ -1,9 +1,12 @@
 import 'aframe';
 import React, { Component } from 'react';
 
+import "WorldStyles.css";
+
 class Worlds extends Component {
   render () {
     return (
+      <div className='world1'>
       <a-scene  sphere-collider="objects: a-box;" super-hands id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #ffcccc">
         <a-box 
       grabbable
@@ -24,8 +27,8 @@ class Worlds extends Component {
     <a-plane 
       position="0 0 -4" 
       rotation="-90 0 0" 
-      width="4" 
-      height="4" 
+      width="10" 
+      height="10" 
       color="#7BC8A4" />
     <a-dodecahedron 
       grabbable
@@ -33,6 +36,7 @@ class Worlds extends Component {
       radius="5" 
       position="0 -1 -30"></a-dodecahedron>
     <a-sky src={require('../assets/skybox/cloudyNight.jpg')} /></a-scene>
+      </div>
     );
   }
 }
