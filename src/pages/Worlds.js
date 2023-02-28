@@ -1,7 +1,7 @@
 import 'aframe';
 import React, { Component } from 'react';
 
-import "./WorldStyles.css";
+import "./WorldsStyles.css";
 
 class Worlds extends Component {
   render () {
