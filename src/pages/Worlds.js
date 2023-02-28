@@ -27,8 +27,8 @@ class Worlds extends Component {
     <a-plane 
       position="0 0 -4" 
       rotation="-90 0 0" 
-      width="10" 
-      height="10" 
+      width="25" 
+      height="25" 
       color="#7BC8A4" />
     <a-dodecahedron 
       grabbable
