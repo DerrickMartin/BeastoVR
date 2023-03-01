@@ -13,7 +13,7 @@ class Worlds extends Component {
           <a-asset-item id="chuuninRoom" src="../assets/gltf_modals/chunnin_scene.gltf"></a-asset-item>
         </a-assets>
         <a-entity camera="active: true" look-controls wasd-controls position="0 1.6 0" data-aframe-default-camera></a-entity>
-        <a-entity gltf-model="#chuuninRoom"></a-entity>
+        <a-gltf-model src="#chuuninRoom"></a-gltf-model>
         <a-box 
           grabbable
           position="-1 0.5 -3" 
@@ -33,8 +33,8 @@ class Worlds extends Component {
         <a-plane 
           position="0 0 0" 
           rotation="-90 0 0" 
-          width="25" 
-          height="25" 
+          width="55" 
+          height="55" 
           src="#combatFlooring" />
         <a-dodecahedron 
           grabbable
