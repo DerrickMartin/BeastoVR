@@ -12,6 +12,7 @@ class Worlds extends Component {
           <img id="combatFlooring" src="../assets/grass_texture.jpeg" alt="Plane material" />
           <a-asset-item id="chuuninRoom" src="../assets/gltf_modals/chunnin_scene.gltf"></a-asset-item>
         </a-assets>
+        <a-entity camera="active: true" look-controls wasd-controls position="0 1.6 0" data-aframe-default-camera></a-entity>
         <a-entity gltf-model="#chuuninRoom"></a-entity>
         <a-box 
           grabbable
