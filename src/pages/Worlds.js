@@ -9,8 +9,10 @@ class Worlds extends Component {
       <div className='world1'>
       <a-scene  sphere-collider="objects: a-box;" super-hands id="rightHand" hand-controls="hand: right; handModelStyle: lowPoly; color: #ffcccc">
         <a-assets>
-          <img id="combatFlooring" src="https://imgur.com/a/1SxpGIO" alt="Plane material" />
+          <img id="combatFlooring" src="../assets/grass_texture.jpeg" alt="Plane material" />
+          <a-asset-item id="chuuninRoom" src="../assets/gltf_modals/chunnin_scene.gltf"></a-asset-item>
         </a-assets>
+        <a-entity gltf-model="#chuuninRoom"></a-entity>
         <a-box 
           grabbable
           position="-1 0.5 -3" 
@@ -28,7 +30,7 @@ class Worlds extends Component {
           height="1.5" 
           color="#FFC65D" />
         <a-plane 
-          position="0 0 -4" 
+          position="0 0 0" 
           rotation="-90 0 0" 
           width="25" 
           height="25" 
