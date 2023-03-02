@@ -1,0 +1,11 @@
+Model Information:
+* title:	Ponyo
+* source:	https://sketchfab.com/3d-models/ponyo-921170882e1e43d3a92c29932934bc6a
+* author:	kiro.named (https://sketchfab.com/kiro.named)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Ponyo" (https://sketchfab.com/3d-models/ponyo-921170882e1e43d3a92c29932934bc6a) by kiro.named (https://sketchfab.com/kiro.named) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

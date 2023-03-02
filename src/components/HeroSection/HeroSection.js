@@ -2,8 +2,11 @@ import { React } from "react";
 import './HeroSectionStyles.css';
 
 import '../../styles/globalstyles.css';
-import vrchatModal from '../../assets/pictures/tehbeasto.png';
+//import vrchatModal from '../../assets/pictures/tehbeasto.png';
 
+import { OrbitControls } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
+import Ponyo from './Modals3d/Ponyo.jsx'
 
 
 function HeroSection() {
@@ -20,11 +23,17 @@ function HeroSection() {
             
           </div>
           <div className="right-hero">
-            <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
+            <Canvas>
+                <ambientLight />
+                    <Ponyo />
+                <OrbitControls enableZoom={false} />
+            </Canvas>
+
           </div> 
       
         </div>
         )
 
 }
- export default HeroSection
+ export default HeroSection 
+ //  <img src={vrchatModal} className="App-logo" alt="TehBeasto Modal" />
