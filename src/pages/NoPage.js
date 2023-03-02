@@ -5,5 +5,4 @@ const NoPage = () => {
     return  <img src={errorpage} className="photo-image" alt="Page not available" />
     ;
   };
-  
-  export default NoPage;
+export default NoPage;
