@@ -1,6 +1,4 @@
-.world1 {
-    width: 400px;
-    height: 400px;
-    margin-top: 60px;
-    background-color: teal;
+#sceneContainer {
+    width: 100%;
+    height: 90%;
 }
