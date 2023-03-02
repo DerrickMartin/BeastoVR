@@ -11,7 +11,6 @@ const Avatars = () => {
         microphone;
         display-capture;
         xr-spatial-tracking" />
-      <FooterSection />
     </div>
     )
 };

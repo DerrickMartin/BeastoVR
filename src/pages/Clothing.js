@@ -96,7 +96,6 @@ const Clothing = () => {
       </a-entity>
     </a-scene>
     </div>
-    <FooterSection />
     </>
     )
   };
