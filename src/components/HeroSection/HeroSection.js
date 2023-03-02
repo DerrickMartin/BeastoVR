@@ -6,7 +6,7 @@ import '../../styles/globalstyles.css';
 
 import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
-import Ponyo from './Modals3d/Ponyo.jsx'
+import Ponyo from '../Modals3d/Ponyo.jsx'
 
 
 function HeroSection() {
