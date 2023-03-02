@@ -9,8 +9,10 @@ import FooterSection from '../components/Footer/FooterSection';
 const Home = () => {
     return (
     <div className="App">
-      <HeroSection />
-      <StreamingSection />
+      <div>
+        <HeroSection />
+        <StreamingSection />
+      </div>
       <FooterSection />
      </div>
     )
