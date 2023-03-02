@@ -1,5 +1,5 @@
 import { React } from "react";
-import './HeroSectionStyles.css';
+import './StreamingSectionStyles.css';
 import '../../styles/globalstyles.css';
 //Assets
 import vrchatTitle from '../assets/vrchat_title.jpg';
