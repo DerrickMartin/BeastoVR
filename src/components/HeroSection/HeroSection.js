@@ -26,7 +26,7 @@ function HeroSection() {
             <Canvas>
                 <ambientLight />
                     <Ponyo />
-                <OrbitControls enableZoom={false} />
+                <OrbitControls enableZoom={true} />
             </Canvas>
 
           </div> 
