@@ -14,7 +14,7 @@ export default function Model(props) {
   const { nodes, materials } = useGLTF('/ponyo-transformed.glb')
   return (
     <group {...props} dispose={null}>
-      <group position={[0, 0.01, -0.2]} scale={2.21}>
+      <group position={[0, -0.60, -0.2]} scale={1.0}>
         <primitive object={nodes.GLTF_created_0_rootJoint} />
         <skinnedMesh geometry={nodes.Object_7.geometry} material={materials.base_colors} skeleton={nodes.Object_7.skeleton} />
         <skinnedMesh geometry={nodes.Object_9.geometry} material={materials.base_colors} skeleton={nodes.Object_9.skeleton} />
