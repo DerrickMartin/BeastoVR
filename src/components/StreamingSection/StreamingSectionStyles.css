@@ -15,8 +15,8 @@
   width: 100%;
 }
 .photo-image {
-  height: 15em;
-  width: 30%;
+  height: 80px;
+  width: 100px;
   padding: 20px;
 }
 .title-image {
@@ -33,13 +33,13 @@
     font-size: 30px;
   } 
   .photo-image {
-    height: 18em;
-    width: 30%;
+    height: 120px;
+    width: 150px;
     padding: 12px;
   }
   .photo-image-web {
-    height: 18em;
-    width: 30%;
+    height: 120px;
+    width: 150px;
     padding-left: 12px;
   }
 }
