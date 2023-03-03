@@ -21,7 +21,7 @@ function HeroSection() {
             <Canvas>
               <pointLight position={[0, 12, 12]} intensity={1.2} />
               <Ponyo />
-              <OrbitControls enableZoom={true} />
+              <OrbitControls enableZoom={false}  autoRotate={true} rotateSpeed={0.5}/>
             </Canvas>
           </div> 
         </div>

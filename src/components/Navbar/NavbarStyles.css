@@ -50,7 +50,10 @@
   }
   ul {
     list-style-type: none;
+  }
+  Link {
     color: teal;
+    padding: 10px;
   }
   .Logo {
     padding: 10px;
@@ -74,7 +77,6 @@
   }
   .web-nav-links {
     font-size: 30px;
-    color: red;
     padding: 10px;
     margin:5px;
   }

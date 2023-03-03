@@ -15,8 +15,9 @@
   width: 100%;
 }
 .photo-image {
-  height: 25vmin;
-  width: 25vmin;
+  height: 15em;
+  width: 30%;
+  padding: 20px;
 }
 .title-image {
   height: 45vmin;
@@ -32,14 +33,13 @@
     font-size: 30px;
   } 
   .photo-image {
-    height: 33vmin;
-    width: 33vmin;
-    padding-right: 15px;
-    padding-left: 15px;
+    height: 18em;
+    width: 30%;
+    padding: 12px;
   }
   .photo-image-web {
-    height: 33vmin;
-    width: 33vmin;
-    padding-left: 10px;
+    height: 18em;
+    width: 30%;
+    padding-left: 12px;
   }
 }
