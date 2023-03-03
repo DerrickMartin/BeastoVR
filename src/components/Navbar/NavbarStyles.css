@@ -50,16 +50,15 @@
   }
   ul {
     list-style-type: none;
+    color: teal;
+  }
+  .Logo {
+    padding: 10px;
   }
   .LogoIcon {
     height: 40px;
     width: 180px;
     margin-bottom: 45px;
-  }
-  .Logo {
-    width: 17%;
-    padding-top: 10px;
-    padding-bottom: 9px;
   }
   .header-links {
     display: inline-block;
@@ -70,18 +69,13 @@
     padding: 5px;
     margin-bottom: 4px;
   }
-  .route-link {
-    color: tomato;
-  }
   .mobile-menu {
     display: none;
   }
-  .footerNav {
-    padding-right: 5px;
-  }
   .web-nav-links {
     font-size: 30px;
-    padding: 5px;
+    color: red;
+    padding: 10px;
     margin:5px;
   }
 }
