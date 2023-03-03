@@ -24,7 +24,7 @@ function HeroSection() {
           </div>
           <div className="right-hero">
             <Canvas>
-            <pointLight position={[0, 10, 10]} intensity={1.5} />
+            <pointLight position={[0, 10, 10]} intensity={1.0} />
                 <Ponyo />
                 <OrbitControls enableZoom={true} />
             </Canvas>
