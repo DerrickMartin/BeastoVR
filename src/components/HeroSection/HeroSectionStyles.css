@@ -2,7 +2,7 @@
   height: 60vmin;
   width: 60%;
   pointer-events: none;
-  margin-top: 100px;
+  margin-top: 120px;
 }
 .hero-section {
   flex-direction: row;
@@ -11,13 +11,13 @@
   margin-top: 40px;
 }
 .left-hero {
-  width: 30%;
+  width: 31%;
   font-size: 22px;
   font-weight: bold;
   justify-content: center;
   align-items: center;
   padding-top: 50px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 .hero-text-1 {
   padding-right: 95px;
@@ -40,7 +40,7 @@
     height: 50vmin;
     width: 25%;
     pointer-events: none;
-    margin-top: 100px;
+    margin-top: 150px;
   }
   .left-hero {
     width: 30%;
