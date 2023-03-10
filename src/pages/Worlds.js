@@ -1,4 +1,4 @@
-import "../components/Navbar/Navbar";
+import Navbar from '../components/Navbar/Navbar';
 import "./WorldsStyles.css";
 
 const Worlds = () => {

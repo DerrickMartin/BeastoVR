@@ -1,3 +1,4 @@
+import Navbar from '../components/Navbar/Navbar';
 import errorpage from '../assets/404.jpg';
 import FooterSection from '../components/Footer/FooterSection';
 import './NoPageStyles.css';
