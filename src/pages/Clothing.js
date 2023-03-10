@@ -1,9 +1,11 @@
 import './ClothingStyles.css'
 import FooterSection from '../components/Footer/FooterSection';
+import Navbar from '../components/Navbar/Navbar';
 
 const Clothing = () => {
     return (
     <>
+    <Navbar />
     <div className='clothing-section'>
       <h1>Love the Streams and Videos? Check out the new gear!</h1>
       <a-scene
@@ -96,6 +98,7 @@ const Clothing = () => {
       </a-entity>
     </a-scene>
     </div>
+    <FooterSection />
     </>
     )
   };
