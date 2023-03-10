@@ -1,9 +1,21 @@
 :root {
+  --body_background: #ccd3db;
+  --body_color: hsl(0, 0%, 20%);
+  --nav_background: #acacac;
+  --footer_background: #acacac;
+  
   --background_dark: #212227;
   --background_light: #ccd3db;
   --primary_color_dark: #B1B1B1;
   --primary_color_light: hsl(0, 0%, 20%);
   --body_background_dark: #2d2e35;
+}
+
+[data-theme="dark"] {
+  --body_background: #212227;;
+  --body_color: #B1B1B1;
+  --nav_background: #181b20;
+  --footer_background: #181b20;
 }
 .App {
   text-align: center;

@@ -1,3 +1,4 @@
+import Navbar from '../components/Navbar/Navbar';
 import FooterSection from '../components/Footer/FooterSection';
 import './AvatarsStyles.css'
 const Avatars = () => {
