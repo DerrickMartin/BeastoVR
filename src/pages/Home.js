@@ -9,12 +9,12 @@ import FooterSection from '../components/Footer/FooterSection';
 
 const Home = () => {
     return (
-    <div className="App">
+        <>
         <Navbar />
         <HeroSection />
         <StreamingSection />
         <FooterSection />
-     </div>
+     </>
     )
 };
 export default Home;

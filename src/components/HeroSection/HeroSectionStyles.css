@@ -7,7 +7,6 @@
 .hero-section {
   flex-direction: row;
   display: flex;
-  height: 600px;
 }
 .left-hero {
   width: 31%;
