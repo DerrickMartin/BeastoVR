@@ -10,7 +10,7 @@ import twitch from '../../assets/pictures/3dtwitch.png';
 function FooterSection() {
 
         return (
-        <footer className='App-Footer'>
+        <div className='App-Footer'>
           <div className="col1" >
            <img src={FooterLogo} className="LogoIcon" alt="TehBeasto Logo" />
             <div className="bottom-links">
@@ -34,7 +34,7 @@ function FooterSection() {
                 <img src={youtube} className="social-media" alt="TehBeasto's Youtube" /> 
             </a>
               </div> 
-        </footer>
+        </div>
         )
 }
 export default FooterSection
