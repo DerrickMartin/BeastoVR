@@ -29,11 +29,11 @@ li {
 }
 .Link-style{
   text-decoration: none;
-  color: var(--body_color);
+  color: var(--nav_links);
 }
  .App-logo {
   width: 70px;
-  height: 30px;
+  height: 40px;
 }
 .nav-btn {
   padding: 5px;
@@ -106,7 +106,7 @@ li {
 @media only screen and (min-width: 721px) { 
   .App-logo {
     width: 70px;
-    height: 70px;
+    height: 40px;
     margin: 10px;      
   }
   .nav-routes {

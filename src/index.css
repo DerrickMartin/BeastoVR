@@ -3,6 +3,7 @@
   --body_color: black;
   --nav_background: #acacac;
   --footer_background: #acacac;
+  --nav_links: black;
 }
 
 [data-theme="dark"] {
@@ -10,6 +11,7 @@
   --body_color: white;
   --nav_background: #181b20;
   --footer_background: #181b20;
+  --nav_links: white;
 }
 body {
   margin: 0;
