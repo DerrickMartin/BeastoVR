@@ -5,13 +5,13 @@ import '../../styles/globalstyles.css';
 import tiktoc from '../../assets/pictures/3dtiktoc.png';
 import youtube from '../../assets/pictures/3dyoutube.png';
 import twitch from '../../assets/pictures/3dtwitch.png';
-import FooterNavLinkStyles from './FooterNavLink'
+import FooterNavLinks from './FooterNavLinks'
 
 function FooterSection() {
         return (
         <div className='App-Footer'>
           <div className="col1" >
-            <FooterNavLinkStyles />
+            <FooterNavLinks />
           </div>
             <div className="copywrite">
               <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>        
