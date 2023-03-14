@@ -42,15 +42,6 @@
 }
 
 
-
-.Link-style{
-  text-decoration: none;
-  color: var(--nav_links);
-}
-
-
-
-
 @media only screen and (max-width: 720px) {
   .LogoIcon {  
     width: 100%;
