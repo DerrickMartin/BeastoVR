@@ -13,20 +13,20 @@ function FooterSection() {
           <div className="col1" >
             <FooterNavLinks />
           </div>
-            <div className="copywrite">
-              <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>        
-            </div>
-            <div className="social-links"> 
+          <div className="copywrite">
+            <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>        
+          </div>
+          <div className="social-links"> 
             <a href="https://www.twitch.tv/teh_beasto">
-                <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />
+              <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />
             </a> 
             <a href="https://www.youtube.com/channel/UCfqS9w3TJ20T4fBFFhpumjQ">
-                <img src={tiktoc} className="social-media" alt="TehBeasto's TikToc" /> 
+              <img src={tiktoc} className="social-media" alt="TehBeasto's TikToc" /> 
             </a>
             <a href="https://www.youtube.com/channel/UCfqS9w3TJ20T4fBFFhpumjQ">     
-                <img src={youtube} className="social-media" alt="TehBeasto's Youtube" /> 
+              <img src={youtube} className="social-media" alt="TehBeasto's Youtube" /> 
             </a>
-              </div> 
+          </div> 
         </div>
         )
 }
