@@ -31,10 +31,6 @@ li {
   text-decoration: none;
   color: var(--nav_links);
 }
- .App-logo {
-  width: 70px;
-  height: 40px;
-}
 .nav-btn {
   padding: 5px;
   cursor: pointer;
@@ -104,11 +100,7 @@ li {
   }
 }
 @media only screen and (min-width: 721px) { 
-  .App-logo {
-    width: 70px;
-    height: 40px;
-    margin: 10px;      
-  }
+
   .nav-routes {
     display: flex;
     padding: 10px;

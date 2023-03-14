@@ -1,14 +1,13 @@
 import Navbar from '../components/Navbar/Navbar';
 import errorpage from '../assets/404.jpg';
 import FooterSection from '../components/Footer/FooterSection';
-import './NoPageStyles.css';
 
 const NoPage = () => {
    
     return (
       <>
         <Navbar />
-        <img src={errorpage} className="photo-image" alt="Page not available" />
+        <img src={errorpage} style={{width: '100%', height: '100%'}} alt="Page not available" />
         <FooterSection />
       </>
      );
