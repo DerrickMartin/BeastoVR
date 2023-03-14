@@ -22,11 +22,11 @@ function StreamingSection() {
               <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! A lot of content I like to play is in VR and stream.</p>
               <p>I would love for you to stop by and if you have an Oculus Headset, maybe you can join too!</p>
               <p>Here is a small list of titles I spend time on.</p> 
-              <h3 className="stream-titles"> VrChat </h3>
+              <h3> VrChat </h3>
               <img src={vrchatTitle} className="title-image" alt="Vrchat Title" />
-              <h3 className="stream-titles"> Naruto Ultimate Ninja Storm 4 </h3>
+              <h3> Naruto Ultimate Ninja Storm 4 </h3>
               <img src={narutoTitle} className="title-image" alt="Naruto Title" />
-              <h3 className="stream-titles"> Fortnite </h3>
+              <h3> Fortnite </h3>
               <img src={fortniteTitle} className="title-image" alt="Fortnite Title" />
             </div>
           </div>
