@@ -1,5 +1,6 @@
-import { React } from "react";
+import { React, useRef } from "react";
 import './FooterStyles.css';
+import { Link } from "react-router-dom";
 
 import '../../styles/globalstyles.css';
 import FooterLogo from '../../assets/Logo.png';
@@ -8,17 +9,40 @@ import youtube from '../../assets/pictures/3dyoutube.png';
 import twitch from '../../assets/pictures/3dtwitch.png';
 
 function FooterSection() {
+  const navRef = useRef();
 
         return (
         <div className='App-Footer'>
           <div className="col1" >
            <img src={FooterLogo} className="LogoIcon" alt="TehBeasto Logo" />
             <div className="bottom-links">
-                <a className="footerNav" href="www.tehbeasto.cloud">Home</a> 
-                <a className="footerNav" href="www.tehbeasto.cloud">Contact Us </a>
-                <a className="footerNav" href="www.tehbeasto.cloud">Worlds</a>
-                <a className="footerNav" href="www.tehbeasto.cloud">Clothes</a>                
+            <ul id="nav" ref={navRef}>
+            <li className='Link-style-parent'>
+              <Link to="/avatar" className='Link-style'>
+                <p className='nav-routes'>
+                  Avatar
+                </p>
+              </Link>
+            </li>
+
+            <li className='Link-style-parent'>
+              <Link to="/clothing" className='Link-style'>
+                <p className='nav-routes'>
+                  Clothing
+                </p>
+              </Link>
+            </li>
+
+            <li className='Link-style-parent'>
+              <Link to="/worlds" className='Link-style'>
+                <p className='nav-routes'>
+                  Worlds
+                </p>
+              </Link>
+            </li>
+            </ul>             
             </div>
+
           </div>
             <div className="copywrite">
               <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>        
