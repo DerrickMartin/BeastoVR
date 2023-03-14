@@ -5,7 +5,7 @@ import '../../styles/globalstyles.css';
 import vrchatTitle from '../../assets/vrchat_title.jpg';
 import narutoTitle from '../../assets/naruto_title.jpg';
 import fortniteTitle from '../../assets/fortnite_title.jpg';
-import fortnite from '../../assets/fortnite_vr.png';
+import vrchat from '../../assets/vrchat.png';
 
 function StreamingSection() {
         return (
@@ -15,9 +15,9 @@ function StreamingSection() {
             </h2>
             <div className="stream-photos">
               <div className="photo">
-                <img src={fortnite} className="photo-image" alt="Vrchat" />
-                <img src={fortnite} className="photo-image" alt="Fortnite" />
-                <img src={fortnite} className="photo-image-web" alt="Vrchat" />
+                <img src={vrchat} className="photo-image" alt="Vrchat" />
+                <img src={vrchat} className="photo-image" alt="Fortnite" />
+                <img src={vrchat} className="photo-image-web" alt="Vrchat" />
               </div>
               <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! A lot of content I like to play is in VR and stream.</p>
               <p>I would love for you to stop by and if you have an Oculus Headset, maybe you can join too!</p>
