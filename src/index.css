@@ -4,6 +4,8 @@
   --nav_background: #acacac;
   --footer_background: #acacac;
   --nav_links: black;
+  color: body_color;
+  background-color: var(--body_background);
 }
 
 [data-theme="dark"] {

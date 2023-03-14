@@ -20,7 +20,7 @@ export default function Navbar() {
       <>
         <nav className='App-header'>
           <Link to="/" className='Link-style'>
-            <img src={NavLogo} className="App-logo" alt="logo" />
+            <img src={NavLogo} className="Logo" alt="logo" />
           </Link>  
           <ul id="nav" ref={navRef}>
             <li className='Link-style-parent'>

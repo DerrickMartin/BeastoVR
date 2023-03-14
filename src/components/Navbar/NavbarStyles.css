@@ -27,6 +27,10 @@ li {
   padding: 5px;
   z-index: 2;
 }
+.Logo {
+  width: fit-content;
+  height: fit-content;
+}
 .Link-style{
   text-decoration: none;
   color: var(--nav_links);
