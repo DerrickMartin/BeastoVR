@@ -21,24 +21,9 @@
   .photo-image-web {
     display: none;
   }
-  .photo-image {
-    height: 40px;
-    width: 50px;
-    padding: 10px;
-  }
 }
 @media only screen and (min-width: 721px) {
   .twitch-youtube {
     font-size: 30px;
   } 
-  .photo-image {
-    height: 120px;
-    width: 150px;
-    padding: 12px;
-  }
-  .photo-image-web {
-    height: 120px;
-    width: 150px;
-    padding-left: 12px;
-  }
 }
