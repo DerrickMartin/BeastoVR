@@ -1,5 +1,8 @@
 .stream-section {
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .twitch-youtube {
   font-style: italic;
