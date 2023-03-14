@@ -3,7 +3,6 @@
   background-color: var(--body_background);
   color: var(--body_color);
   width: 100%;
-  flex-direction: column;
   padding: 10px;
 }
 .col1 {
