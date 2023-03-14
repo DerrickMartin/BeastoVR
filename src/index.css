@@ -7,7 +7,22 @@
   color: body_color;
   background-color: var(--body_background);
 }
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a:visited {
+  color: 'white';
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+li {
+  list-style: none;
+  display: flex;
+} 
 [data-theme="dark"] {
   --body_background: #282c34;
   --body_color: white;
