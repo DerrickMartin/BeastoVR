@@ -1,4 +1,6 @@
 import Navbar from '../components/Navbar/Navbar';
+import FooterSection from '../components/Footer/FooterSection';
+
 
 const Tournament = () => {
     return (
@@ -7,6 +9,7 @@ const Tournament = () => {
       <div id="sceneContainer">
         Tournament
       </div>
+      <FooterSection />
       </>
     );
 }
