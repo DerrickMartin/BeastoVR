@@ -3,7 +3,7 @@
   --body_color: black;
   --nav_background: #ededed;
   --footer_background: #acacac;
-  --nav_links: black;
+  --nav_links: rgb(9, 9, 9);
   color: body_color;
   background-color: var(--body_background);
 }
