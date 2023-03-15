@@ -5,6 +5,7 @@
   bottom: 2px;
   flex-flow: row-reverse;
   padding-right: 15px;
+
 }
 .social-media {
   width: 36px;
@@ -17,5 +18,9 @@
   flex-direction: row;
   width: 45px;
   height: 45px;
+  margin-bottom: 15px;
     }
+.social-links {
+    margin-bottom: 5px;
+}
 }
