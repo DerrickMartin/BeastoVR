@@ -20,6 +20,14 @@ export default function FooterNavLinks() {
             </li>
 
             <li className='Link-style-parent'>
+              <Link to="/tournament" className='Link-style'>
+                <p className='nav-routes'>
+                  Tournament
+                </p>
+              </Link>
+            </li>
+
+            <li className='Link-style-parent'>
               <Link to="/clothing" className='Link-style'>
                 <p className='nav-routes'>
                   Clothing

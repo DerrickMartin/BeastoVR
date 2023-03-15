@@ -1,7 +1,7 @@
 .App-Footer {
   display: flex;
   flex-direction: column;
-  background-color: var(--body_background);
+  background-color: var(--nav_background);
   color: var(--body_color);
   width: 100%;
 }

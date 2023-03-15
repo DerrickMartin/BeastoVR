@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Worlds from "./pages/Worlds";
+import Tournament from "./pages/Tournament";
 import Clothing from "./pages/Clothing";
 import Avatars from "./pages/Avatars";
 import NoPage from "./pages/NoPage";
@@ -20,6 +21,7 @@ function App() {
           <Route path="worlds" element={<Worlds />} />
           <Route path="clothing" element={<Clothing />} />
           <Route path="avatars" element={<Avatars />} />
+          <Route path="tournament" element={<Tournament />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
