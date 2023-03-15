@@ -15,7 +15,6 @@ function FooterSection() {
             <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>        
             <SocialLink />
           </div>
-          
         </div>
         )
 }
