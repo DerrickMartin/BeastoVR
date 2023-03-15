@@ -3,17 +3,17 @@ import { ReactComponent as Sun } from "./Sun.svg";
 import { ReactComponent as Moon } from "./Moon.svg";
 import "./DarkMode.css";
 
-const DarkMode = ({ setDarkMode }) => {
+const DarkMode = () => {
     const setDarkTheme = () => {
         document.querySelector("body").setAttribute("data-theme", "dark");
         localStorage.setItem("selectedTheme", "dark")
-        setDarkMode('true')
+
     };
 
     const setLightTheme = () => {
         document.querySelector("body").setAttribute("data-theme", "light");
         localStorage.setItem("selectedTheme", "light")
-        setDarkMode('false')
+  
     };
 
     const selectedTheme = localStorage.getItem("selectedTheme");
