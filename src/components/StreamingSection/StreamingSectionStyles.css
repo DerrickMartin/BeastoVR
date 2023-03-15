@@ -4,8 +4,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: var(--body_color);
-  background-color: var(--background_color);
 }
 .twitch-youtube {
   font-style: italic;

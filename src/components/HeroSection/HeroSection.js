@@ -1,6 +1,5 @@
 import { React } from "react";
 import './HeroSectionStyles.css';
-import '../../styles/globalstyles.css';
 //Three JS and GLTF Model
 import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
