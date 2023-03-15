@@ -2,10 +2,8 @@ import { React} from "react";
 import './FooterStyles.css';
 
 import '../../styles/globalstyles.css';
-import tiktoc from '../../assets/pictures/3dtiktoc.png';
-import youtube from '../../assets/pictures/3dyoutube.png';
-import twitch from '../../assets/pictures/3dtwitch.png';
 import FooterNavLinks from './FooterNavLinks'
+import SocialLink from "./SocialLink/SocialLink";
 
 function FooterSection() {
         return (
@@ -13,20 +11,11 @@ function FooterSection() {
           <div className="col1" >
             <FooterNavLinks />
           </div>
-          <div className="copywrite">
+          <div className="BottomColumn">
             <p>Copyright © 2023 TehBeasto Inc. All rights reserved.</p>        
+            <SocialLink />
           </div>
-          <div className="social-links"> 
-            <a href="https://www.twitch.tv/teh_beasto">
-              <img src={twitch} className="social-media" alt="TehBeasto's Twitch" />
-            </a> 
-            <a href="https://www.youtube.com/channel/UCfqS9w3TJ20T4fBFFhpumjQ">
-              <img src={tiktoc} className="social-media" alt="TehBeasto's TikToc" /> 
-            </a>
-            <a href="https://www.youtube.com/channel/UCfqS9w3TJ20T4fBFFhpumjQ">     
-              <img src={youtube} className="social-media" alt="TehBeasto's Youtube" /> 
-            </a>
-          </div> 
+          
         </div>
         )
 }
