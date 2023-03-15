@@ -10,7 +10,7 @@ const DarkMode = ({ setDarkMode }) => {
         setDarkMode('true')
     };
 
-    const setLightTheme = ({ setDarkMode}) => {
+    const setLightTheme = () => {
         document.querySelector("body").setAttribute("data-theme", "light");
         localStorage.setItem("selectedTheme", "light")
         setDarkMode('false')
