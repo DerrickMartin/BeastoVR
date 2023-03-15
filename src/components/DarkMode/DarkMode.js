@@ -6,14 +6,14 @@ import "./DarkMode.css";
 const DarkMode = ({ setDarkMode }) => {
     const setDarkTheme = () => {
         document.querySelector("body").setAttribute("data-theme", "dark");
-        localStorage.setItem("selectedTheme", "dark")
         setDarkMode('true')
+        localStorage.setItem("selectedTheme", "dark")
     };
 
     const setLightTheme = () => {
         document.querySelector("body").setAttribute("data-theme", "light");
-        localStorage.setItem("selectedTheme", "light")
         setDarkMode('false')
+        localStorage.setItem("selectedTheme", "light")
     };
 
     const selectedTheme = localStorage.getItem("selectedTheme");
