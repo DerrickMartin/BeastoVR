@@ -1,3 +1,6 @@
+.Navigation {
+    padding: 15px;
+}
 .LogoIcon {  
     height: 40px;
     width: 90px;
@@ -15,6 +18,7 @@
 .Link-style{
     text-decoration: none;
     color: var(--nav_links);
+    font-size: 20px;
 }
 .nav-routes {
     padding: 10px;

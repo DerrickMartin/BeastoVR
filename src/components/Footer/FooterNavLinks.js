@@ -7,6 +7,7 @@ export default function FooterNavLinks() {
     const navRef = useRef();
     return (
     <>
+        <div className='Navigation'>
           <Link to="/" className='Link-style'>
             <img src={FooterLogo} className="LogoIcon" alt="TehBeasto Logo" />
           </Link>  
@@ -43,6 +44,7 @@ export default function FooterNavLinks() {
               </Link>
             </li>
             </ul>
+        </div>
     </>
     );
 }
