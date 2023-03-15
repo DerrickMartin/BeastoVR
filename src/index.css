@@ -1,10 +1,10 @@
 :root {
-  --body_background: white;
-  --body_color: black;
+  --body_background: #eef0f2;
+  --body_color: rgb(16, 16, 16);
   --nav_background: #ededed;
-  --footer_background: #acacac;
+  --footer_background: #ededed;
   --nav_links: rgb(9, 9, 9);
-  color: body_color;
+  color: var(--body_color);
   background-color: var(--body_background);
 }
 * {
@@ -25,10 +25,10 @@ li {
 } 
 [data-theme="dark"] {
   --body_background: #282c34;
-  --body_color: white;
+  --body_color: rgb(239, 239, 239);
   --nav_background: #181b20;
   --footer_background: #181b20;
-  --nav_links: white;
+  --nav_links: rgb(240, 240, 240);
 }
 body {
   margin: 0;
@@ -37,6 +37,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--body_color);
+  background-color: var(--body_background);
 }
 
 code {
