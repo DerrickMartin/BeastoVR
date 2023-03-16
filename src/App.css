@@ -6,9 +6,4 @@
   --body_background_dark: #2d2e35;
 }
 
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  background-color: var(--background_dark)
-}
+
