@@ -13,7 +13,7 @@
   height: 200px;
 }
 .twitchBubble {
-  width: 80%;
+  width: 50%;
 }
 .Headline {
   position: relative;
@@ -64,12 +64,8 @@
 @media only screen and (min-width: 721px) {
   .twitch-youtube {
     font-size: 30px;
-    width: 100%;
     height: 200px;
   } 
-  .twitchBubble {
-    width: 80%;
-  }
   .titles {
     padding: 15px;
   }
