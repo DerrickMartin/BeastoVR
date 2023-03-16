@@ -12,7 +12,7 @@ function StreamingSection() {
           <div className="stream-section">
             <div className="twitch-youtube">
             <img src={twitchBubbles} className="twitchBubble" alt="Twitch Bubbles" />
-              <h2 style={{zIndex: 2}}>
+              <h2 className="Headline">
                 Streaming in VR
               </h2>
             </div>
@@ -25,7 +25,9 @@ function StreamingSection() {
 
               <div className="streamer-info">
               <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! A lot of content I like to play is in VR and stream.</p>
+              
               <p>I would love for you to stop by and if you have an Oculus Headset, maybe you can join too!</p>
+              
               <p>Here is a small list of titles I spend time on.</p> 
               <h3 className="titles"> VrChat </h3>
               <img src={vrchatTitle} className="title-image" alt="Vrchat Title" />

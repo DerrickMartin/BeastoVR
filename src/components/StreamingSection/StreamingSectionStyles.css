@@ -14,7 +14,11 @@
   height: 200px;
 }
 .twitchBubble {
-  flex-wrap: wrap;
+  width: 100%;
+}
+.Headline {
+  position: relative;
+  left: 40%;
 }
 .stream-photos {
   height: fit-content
