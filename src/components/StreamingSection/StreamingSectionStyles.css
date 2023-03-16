@@ -18,7 +18,8 @@
 }
 .Headline {
   position: relative;
-  left: 40%;
+  left: 30%;
+  top: 0;
 }
 .stream-photos {
   height: fit-content
@@ -64,7 +65,11 @@
 @media only screen and (min-width: 721px) {
   .twitch-youtube {
     font-size: 30px;
+    width: 100%;
   } 
+  .twitchBubble {
+    width: 100%;
+  }
   .titles {
     padding: 15px;
   }
