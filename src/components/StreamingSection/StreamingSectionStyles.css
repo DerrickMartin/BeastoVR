@@ -7,8 +7,6 @@
 }
 .twitch-youtube {
   font-style: italic;
-  flex-direction: row;
-  width: 100%;
   align-items: center;
   justify-content: center;
 }
