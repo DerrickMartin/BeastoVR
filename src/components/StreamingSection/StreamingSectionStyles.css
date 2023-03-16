@@ -1,5 +1,4 @@
 
-
 .stream-section {
   width: 100%;
   display: flex;
@@ -14,12 +13,12 @@
   height: 200px;
 }
 .twitchBubble {
-  width: 100%;
+  position: static;
 }
 .Headline {
   position: relative;
   left: 30%;
-  top: -50;
+  top: -50px;
 }
 .stream-photos {
   height: fit-content

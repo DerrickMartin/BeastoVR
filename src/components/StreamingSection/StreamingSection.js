@@ -24,7 +24,9 @@ function StreamingSection() {
               </div>
 
               <div className="streamer-info">
-              <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! A lot of content I like to play is in VR and stream.</p>
+              <p>Hey! Welcome everyone I'm Teh, nice of you to stop by.</p> 
+              
+              <p> I am a streamer, youtuber and VR Enthusiast! A lot of content I like to play is in VR and stream.</p>
               
               <p>I would love for you to stop by and if you have an Oculus Headset, maybe you can join too!</p>
               

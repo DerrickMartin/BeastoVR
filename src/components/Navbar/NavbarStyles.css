@@ -31,7 +31,7 @@
 
 @media only screen and (max-width: 720px) { 
   .App-header {
-    height: 13vh;
+    height: 12vh;
     justify-content: space-between;
   }
 
