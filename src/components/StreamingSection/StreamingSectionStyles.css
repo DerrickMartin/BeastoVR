@@ -1,3 +1,8 @@
+p {
+  align-content: center;
+  align-self: center;
+}
+
 .stream-section {
   width: 100%;
   display: flex;
@@ -9,6 +14,7 @@
   font-style: italic;
   flex-direction: row;
   width: 100%;
+  align-self: center;
 }
 .stream-photos {
   height: fit-content
@@ -28,6 +34,8 @@
 .title-image {
   height: 45vmin;
   width: 80vmin;
+  justify-content: center;
+  align-self: center;
 }
 @media only screen and (max-width: 720px) { 
   .photo-image-web {
@@ -38,4 +46,8 @@
   .twitch-youtube {
     font-size: 30px;
   } 
+  .title-image {
+    height: 45vmin;
+    width: 84vmin;
+  }
 }
