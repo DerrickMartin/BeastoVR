@@ -9,9 +9,11 @@ import vrchat from '../../assets/vrchat.png';
 function StreamingSection() {
         return (
           <div className="stream-section">
-            <h2 className="twitch-youtube">
-              Streaming in VR
-            </h2>
+            <div className="twitch-youtube">
+              <h2>
+                Streaming in VR
+              </h2>
+            </div>
             <div className="stream-photos">
               <div className="photo">
                 <img src={vrchat} className="photo-image" alt="Vrchat" />

@@ -10,6 +10,7 @@
   flex-direction: row;
   width: 100%;
   align-items: center;
+  justify-content: center;
 }
 .stream-photos {
   height: fit-content
@@ -41,6 +42,7 @@
   justify-content: center;
   align-items: center;
   font-weight: 500;
+  font-size: 20px;
 }
 @media only screen and (max-width: 720px) { 
   .photo-image-web {
