@@ -1,7 +1,6 @@
 import { React} from "react";
 import './FooterStyles.css';
 
-import '../../styles/globalstyles.css';
 import FooterNavLinks from './FooterNavLinks'
 import SocialLink from "./SocialLink/SocialLink";
 
