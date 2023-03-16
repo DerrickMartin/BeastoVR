@@ -18,6 +18,8 @@ function StreamingSection() {
                 <img src={vrchat} className="photo-image" alt="Fortnite" />
                 <img src={vrchat} className="photo-image-web" alt="Vrchat" />
               </div>
+
+              <div className="streamer-info">
               <p>Hey! Welcome everyone I'm Teh, nice of you to stop by. I am a streamer, youtuber and VR Enthusiast! A lot of content I like to play is in VR and stream.</p>
               <p>I would love for you to stop by and if you have an Oculus Headset, maybe you can join too!</p>
               <p>Here is a small list of titles I spend time on.</p> 
@@ -27,6 +29,8 @@ function StreamingSection() {
               <img src={narutoTitle} className="title-image" alt="Naruto Title" />
               <h3 className="titles"> Fortnite </h3>
               <img src={fortniteTitle} className="title-image" alt="Fortnite Title" />
+              </div>
+              
             </div>
           </div>
         )

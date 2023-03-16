@@ -1,8 +1,3 @@
-p {
-  align-content: center;
-  align-self: center;
-}
-
 .stream-section {
   width: 100%;
   display: flex;
@@ -23,7 +18,6 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 2%
 }
 .titles {
   display: flex;
@@ -36,6 +30,11 @@ p {
   width: 80vmin;
   justify-content: center;
   align-self: center;
+}
+.streamer-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media only screen and (max-width: 720px) { 
   .photo-image-web {

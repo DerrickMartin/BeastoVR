@@ -1,6 +1,5 @@
 import { React} from "react";
 import './FooterStyles.css';
-
 import FooterNavLinks from './FooterNavLinks'
 import SocialLink from "./SocialLink/SocialLink";
 
