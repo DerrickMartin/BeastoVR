@@ -30,14 +30,14 @@
   }
   
   .left-hero {
-    width: 50%;
+    width: 30%;
     font-size: 38px;
     font-weight: bold;
     justify-content: center;
     align-items: center;
     padding-top: 100px;
     padding-left: 30px;
-    margin-left: 20px;
+    margin-left: 10%;
     margin-top: 40px;
   }
   .hero-text-1 {
@@ -49,7 +49,8 @@
     font-weight: bold;
   }
   .right-hero {
-    width: 50%;
+    width: 40%;
     padding-top: 0px;
+    margin-right: 10%;
   }
 }
