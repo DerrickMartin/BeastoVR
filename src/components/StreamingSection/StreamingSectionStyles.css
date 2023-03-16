@@ -50,12 +50,12 @@
   font-size: 20px;
 }
 @media only screen and (max-width: 720px) { 
-  .photo-image-web {
-    display: none;
-  }
   p {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .photo-image-web {
+    display: none;
   }
 }
 @media only screen and (min-width: 721px) {
@@ -69,5 +69,9 @@
   .title-image {
     height: 45vmin;
     width: 84vmin;
+  }
+  .Headline {
+    left: 27%;
+    top: -100px;
   }
 }
