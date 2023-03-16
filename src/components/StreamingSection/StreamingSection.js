@@ -1,6 +1,5 @@
 import { React } from "react";
 import './StreamingSectionStyles.css';
-import '../../styles/globalstyles.css';
 //Assets
 import vrchatTitle from '../../assets/vrchat_title.jpg';
 import narutoTitle from '../../assets/naruto_title.jpg';
