@@ -5,11 +5,13 @@ import vrchatTitle from '../../assets/vrchat_title.jpg';
 import narutoTitle from '../../assets/naruto_title.jpg';
 import fortniteTitle from '../../assets/fortnite_title.jpg';
 import vrchat from '../../assets/vrchat.png';
+import twitchBubbles from '../../assets/twitch_bg.png';
 
 function StreamingSection() {
         return (
           <div className="stream-section">
             <div className="twitch-youtube">
+            <img src={twitchBubbles} className="twitchBubble" alt="Twitch Bubbles" />
               <h2 style={{zIndex: 2}}>
                 Streaming in VR
               </h2>
