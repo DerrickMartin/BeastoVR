@@ -10,7 +10,7 @@ function StreamingSection() {
         return (
           <div className="stream-section">
             <div className="twitch-youtube">
-              <h2 style={{paddingLeft: '50%'}}>
+              <h2 style={{marginLeft: 40}}>
                 Streaming in VR
               </h2>
             </div>
