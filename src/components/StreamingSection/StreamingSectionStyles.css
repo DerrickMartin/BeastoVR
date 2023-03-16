@@ -9,6 +9,7 @@
   font-style: italic;
   align-items: center;
   justify-content: center;
+  background-image: url(../../assets/twitch_bg.png);
 }
 .stream-photos {
   height: fit-content
