@@ -1,6 +1,5 @@
 import { React, useState, useRef } from "react";
 import './NavbarStyles.css';
-import '../../styles/globalstyles.css';
 import NavLogo from '../../assets/logo.png';
 import { Link } from "react-router-dom";
 import DarkMode from '../DarkMode/DarkMode';
