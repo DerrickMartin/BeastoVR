@@ -13,8 +13,7 @@
   height: 200px;
 }
 .twitchBubble {
-  width: fit-content;
-  flex-wrap: wrap;
+  width: 80%;
 }
 .Headline {
   position: relative;
@@ -69,7 +68,7 @@
     height: 200px;
   } 
   .twitchBubble {
-    width: fit-content;
+    width: 80%;
   }
   .titles {
     padding: 15px;
