@@ -82,6 +82,7 @@
   }
   .twitchBubble {
     height: 170px;
+    width: 700px;
     padding-inline: 3%;
   }
   .Headline {
