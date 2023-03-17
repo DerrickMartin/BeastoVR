@@ -81,12 +81,12 @@
     width: 84vmin;
   }
   .twitchBubble {
-    height: 140px;
-    padding-inline: 2%;
+    height: 170px;
+    padding-inline: 3%;
   }
   .Headline {
     position: relative;
-    left: 15%%;
+    left: 16%%;
     top: -100px;
   }
 }
