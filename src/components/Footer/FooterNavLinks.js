@@ -13,9 +13,9 @@ export default function FooterNavLinks() {
           </Link>  
           <ul id="nav" ref={navRef}>
             <li className='Link-style-parent'>
-              <Link to="/avatar" className='Link-style'>
+              <Link to="/avatars" className='Link-style'>
                 <p className='nav-routes'>
-                  Avatar
+                  Avatars
                 </p>
               </Link>
             </li>
