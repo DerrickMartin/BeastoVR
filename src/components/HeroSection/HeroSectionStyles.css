@@ -2,7 +2,7 @@
   flex-direction: row;
   display: flex;
   padding-top: 40px;
-  height: 320px;
+  height: 360px;
 }
 .left-hero {
   width: 50%;
@@ -12,7 +12,7 @@
   align-items: center;
   padding-left: 5px;
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .hero-text-1 {
   margin-top: 2px;
