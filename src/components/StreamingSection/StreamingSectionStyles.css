@@ -56,9 +56,7 @@
   
   .Headline {
   width: 90%;
-  background-color: tomato;
-  padding-inline: 40px;
-}
+  }
   p {
     padding-left: 15px;
     padding-right: 15px;
@@ -84,12 +82,11 @@
   }
   .twitchBubble {
     height: 140px;
+    padding-inline: 2%;
   }
   .Headline {
     position: relative;
-    left: 20%;
+    left: 15%%;
     top: -100px;
-    background-color: tomato;
-    padding-inline: 50px;
   }
 }
