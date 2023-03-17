@@ -57,6 +57,7 @@
   .Headline {
   width: 90%;
   background-color: tomato;
+  padding-inline: 40px;
 }
   p {
     padding-left: 15px;
@@ -88,5 +89,7 @@
     position: relative;
     left: 20%;
     top: -100px;
+    background-color: tomato;
+    padding-inline: 50px;
   }
 }
