@@ -54,18 +54,20 @@
 
 @media only screen and (max-width: 720px) { 
   
-  .Headline {
-  width: 90%;
-  }
+  
   p {
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .Headline {
+    width: 90%;
   }
   .photo-image-web {
     display: none;
   }
   .twitchBubble {
-    display: none;
+    width: 400px;
+    height: 115px;
   }
 }
 @media only screen and (min-width: 721px) {
@@ -81,13 +83,13 @@
     width: 84vmin;
   }
   .twitchBubble {
-    height: 170px;
+    height: 190px;
     width: 700px;
     padding-inline: 3%;
   }
   .Headline {
     position: relative;
-    left: 16%%;
-    top: -100px;
+    left: 19%%;
+    top: -110px;
   }
 }
