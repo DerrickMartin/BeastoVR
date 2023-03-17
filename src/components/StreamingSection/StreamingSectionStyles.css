@@ -30,7 +30,9 @@
   flex-wrap: wrap;
 }
 .twitchBubble {
-  width: 80%
+  position: static;
+  left: 0;
+  width: 90%
 }
 .titles {
   display: flex;
@@ -74,7 +76,7 @@
     width: 84vmin;
   }
   .twitchBubble {
-    height: 100px;
+    height: 140px;
   }
   .Headline {
     left: 20%;
