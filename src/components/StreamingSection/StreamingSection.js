@@ -5,6 +5,7 @@ import vrchatTitle from '../../assets/vrchat_title.jpg';
 import narutoTitle from '../../assets/naruto_title.jpg';
 import fortniteTitle from '../../assets/fortnite_title.jpg';
 import vrchat from '../../assets/vrchat.png';
+import fortnite from '../../assets/fortnite_photo.png'
 import twitchBubbles from '../../assets/twitch_bg.png';
 
 function StreamingSection() {
@@ -19,7 +20,7 @@ function StreamingSection() {
             <div className="stream-photos">
               <div className="photo">
                 <img src={vrchat} className="photo-image" alt="Vrchat" />
-                <img src={vrchat} className="photo-image" alt="Fortnite" />
+                <img src={fortnite} className="photo-image" alt="Fortnite" />
                 <img src={vrchat} className="photo-image-web" alt="Vrchat" />
               </div>
 
