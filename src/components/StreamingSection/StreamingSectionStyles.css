@@ -62,15 +62,15 @@
   }
   .Headline {
     position: absolute;
-    left: 60px;
-    top: 45px;
+    left: 80px;
+
   }
   .photo-image-web {
     display: none;
   }
   .twitchBubble {
     width: 400px;
-    height: 100px;
+    height: 150px;
   }
 }
 @media only screen and (min-width: 721px) {
