@@ -5,7 +5,7 @@ import vrchatTitle from '../../assets/vrchat_title.jpg';
 import narutoTitle from '../../assets/naruto_title.jpg';
 import fortniteTitle from '../../assets/fortnite_title.jpg';
 import vrchat from '../../assets/vrchat.png';
-import fortnite from '../../assets/fortnite_photo.png'
+import fortnite from '../../assets/fortnite_pic.png';
 import twitchBubbles from '../../assets/twitch_bg.png';
 
 function StreamingSection() {
