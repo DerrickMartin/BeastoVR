@@ -62,7 +62,7 @@
   }
   .Headline {
     position: absolute;
-    top: -70px;
+    left: 10px
   }
   .photo-image-web {
     display: none;
