@@ -63,13 +63,14 @@
   .Headline {
     position: relative;
     top: -60px;
+    margin-left: 50px;
 
   }
   .photo-image-web {
     display: none;
   }
   .twitchBubble {
-    width: 450px;
+    width: 470px;
     height: 150px;
   }
 }
