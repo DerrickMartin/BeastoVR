@@ -61,8 +61,8 @@
     padding-right: 15px;
   }
   .Headline {
-    position: absolute;
-    left: 80px;
+    position: relative;
+    top: 60px;
 
   }
   .photo-image-web {
