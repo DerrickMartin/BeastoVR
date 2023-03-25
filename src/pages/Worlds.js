@@ -3,7 +3,7 @@ import "./WorldsStyles.css";
 
 import NinjaStadium from '../assets/worlds/RealisticHyperbolicTimeChamber.jpg';
 import HyperSpace from '../assets/worlds/HyperbolicTimeChamber.webp';
-import BattleArenaOfGods from '../assets/worlds/TournamentOfPower.webp';
+import BattleArenaOfGods from '../assets/worlds/TournamentOfPower.png';
 
 const Worlds = () => {
     return (
