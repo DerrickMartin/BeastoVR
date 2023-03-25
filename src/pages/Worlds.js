@@ -1,6 +1,10 @@
 import Navbar from '../components/Navbar/Navbar';
 import "./WorldsStyles.css";
 
+import NinjaStadium from '../assets/worlds/RealisticHyperbolicTimeChamber.jpg';
+import HyperSpace from '../assets/worlds/HyperbolicTimeChamber.webp';
+import BattleArenaOfGods from '../assets/worlds/TournamentOfPower.webp';
+
 const Worlds = () => {
     return (
       <>
@@ -15,12 +19,19 @@ const Worlds = () => {
         <p> Patreon Button</p>
 
         <ul> 
-          <li>World 1</li>
-          <li>World 2</li>
-          <li>World 3</li>
+          <li className='Worlds'> 
+            <img src={NinjaStadium}  alt="Ninja Stadium" />
+            World 1
+          </li>
+          <li className='Worlds'>
+            <img src={HyperSpace} alt="Hyper Space" />
+            World 2
+          </li>
+          <li className='Worlds'>
+            <img src={BattleArenaOfGods} alt="Batte Arena of Gods" />
+            World 3
+          </li>
         </ul>
-
-
 
         </div>
       </div>
