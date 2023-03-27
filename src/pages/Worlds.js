@@ -13,20 +13,32 @@ const Worlds = () => {
         <p>Choose any of the following worlds below, more worlds will be created in the future, with the voted suggestions 
           coming from my patreons </p>
 
-        <p> Patreon Button</p>
-
         <ul> 
           <li className='Worlds'> 
-            <img src={BattleArenaOfGods}  alt="Ninja Stadium" />
-            World 1
+            <div className='World_Card'>
+              World #1
+              <h3>Ninja Arena</h3>
+              <span />
+              <img src={BattleArenaOfGods}  alt="Ninja Stadium" />
+            </div>
           </li>
+
           <li className='Worlds'>
-            <img src={BattleArenaOfGods} alt="Hyper Space" />
-            World 2
+            <div className='world_card'>
+              World #2
+              <h3>Hyperspace Chamber</h3>
+              <span />
+              <img src={BattleArenaOfGods} alt="Hyper Space" />
+            </div>
           </li>
+
           <li className='Worlds'>
-            <img src={BattleArenaOfGods} alt="Batte Arena of Gods" />
-            World 3
+            <div className='world_card'>
+              World #3
+              <h3>Battle Arena of Gods</h3>
+              <span />
+              <img src={BattleArenaOfGods} alt="Batte Arena of Gods" />
+            </div>
           </li>
         </ul>
 
