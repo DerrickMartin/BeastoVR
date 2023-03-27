@@ -7,4 +7,9 @@
     display: flex;
     flex-direction: column;
 }
+.World_Card {
+    background-color: rgba(142, 142, 142, 0.514);
+    width: 250px;
+    height: 300px;
+}
 
