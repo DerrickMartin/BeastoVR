@@ -13,8 +13,6 @@ const NinjaArena = () => {
   
     return (
     <>
-    <Navbar />
-    <div className='Ninja_Arena'>
      <Scene>
       <a-assets>
         <img id="chuunin_floor"
@@ -41,8 +39,6 @@ const NinjaArena = () => {
               material={{color: "#FFC65D"}}/>
           <Entity primitive="a-camera" position={{x:0, y: 11.6, z: -3}} />
      </Scene>
-    </div>
-    <FooterSection />
     </>
     )
   };
