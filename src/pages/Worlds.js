@@ -26,7 +26,7 @@ const Worlds = () => {
           </li>
 
           <li className='Worlds'>
-            <div className='World_card'>
+            <div className='World_Card'>
               World #2
               <h3>Hyperspace Chamber</h3>
               <span />
@@ -35,7 +35,7 @@ const Worlds = () => {
           </li>
 
           <li className='Worlds'>
-            <div className='World_card'>
+            <div className='World_Card'>
               World #3
               <h3>Battle Arena of Gods</h3>
               <span />
