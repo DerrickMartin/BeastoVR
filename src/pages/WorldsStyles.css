@@ -5,7 +5,6 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-
 }
 .Worlds {
     display: flex;
@@ -17,8 +16,12 @@
 }
 .World_Card {
     background-color: rgba(142, 142, 142, 0.514);
-    width: 290px;
-    height: 300px;
+    width: 330px;
+    height: 270px;
     border-radius: 12px;
+    border-color: rgba(88, 88, 88, 0.514);
+    border-width: .07px;
+    justify-content: center;
+    align-items: center;
 }
 
