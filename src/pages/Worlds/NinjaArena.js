@@ -4,7 +4,6 @@ import Navbar from '../../components/Navbar/Navbar'
 
 import 'aframe';
 import 'aframe-particle-system-component';
-import {Entity, Scene} from 'aframe-react';
 import React from 'react';
 import ReactDOM from 'react-dom';
  
@@ -12,11 +11,12 @@ import ReactDOM from 'react-dom';
 
 
 const NinjaArena = () => {
-  render () {
+  
     return (
     <>
     <Navbar />
     <div>
+      <iframe>
     <a-scene environment info-message="htmlSrc: #messageText">
       <a-assets>
 		<img id="chuunin_floor" src="https://cdn.glitch.global/c76a4fd7-d4e0-495b-a83b-9db94de330a2/chunin_floor.png?v=1680032695456" crossorigin="anonymous" alt='ninja floor' />
@@ -136,12 +136,13 @@ const NinjaArena = () => {
       <a-entity hand-tracking-controls="hand: right"></a-entity>
        <a-light type="directional" light="castShadow:true;" position="0 1 1" intensity=".6" shdadow-camera-automatic="#objects"></a-light>
     </a-scene>
+    </iframe>
     </div>
     <FooterSection />
     </>
     )
   };
-}
+
   export default NinjaArena;
 
-  ReactDOM.render(<VRScene/>, document.querySelector('#sceneContainer'));
+  ReactDOM.render(<NinjaArena/>, document.querySelector('#sceneContainer'));
