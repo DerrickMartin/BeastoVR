@@ -10,6 +10,7 @@ import Tournament from "./pages/Tournament";
 import Clothing from "./pages/Clothing";
 import Avatars from "./pages/Avatars";
 import NoPage from "./pages/NoPage";
+import NinjaArena from "./pages/Worlds/NinjaArena"
 //install soon
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="worlds" element={<Worlds />} />
+          <Route path="worlds/ninja-arena" element={<NinjaArena />} />
           <Route path="clothing" element={<Clothing />} />
           <Route path="avatars" element={<Avatars />} />
           <Route path="tournament" element={<Tournament />} />

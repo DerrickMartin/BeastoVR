@@ -1,6 +1,8 @@
 import Navbar from '../components/Navbar/Navbar';
 import FooterSection from '../components/Footer/FooterSection'
 import "./WorldsStyles.css";
+import { Link } from "react-router-dom";
+
 
 import BattleArenaOfGods from '../assets/worlds/TournamentOfPower.png';
 
@@ -14,6 +16,7 @@ const Worlds = () => {
         <p>Choose any of the following worlds below, each world comes packed with different skills and scenery. More worlds will be created in the future, with teh voted suggestions coming from my patreons. </p>
 
         <ul className='WorldsList'> 
+        <Link to="/worlds/ninja-arena" className='Link-style'>
           <li className='Worlds'> 
             <div className='World_Card'>
               World #1
@@ -23,7 +26,7 @@ const Worlds = () => {
               <p> Use your favorite elements to do some crazy moves! </p>
             </div>
           </li>
-
+        </Link>
           <li className='Worlds'>
             <div className='World_Card'>
               World #2
