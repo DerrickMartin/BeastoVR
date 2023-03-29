@@ -13,7 +13,7 @@ const Worlds = () => {
         <p>Choose any of the following worlds below, more worlds will be created in the future, with the voted suggestions 
           coming from my patreons </p>
 
-        <ul> 
+        <ul className='WorldsList'> 
           <li className='Worlds'> 
             <div className='World_Card'>
               World #1

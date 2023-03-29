@@ -1,15 +1,22 @@
 .WorldHero {
     display: flex;
     flex-direction: column;
+    width: 100%;
+    height: 100%;
 
 }
 .Worlds {
     display: flex;
     flex-direction: column;
 }
+.WorldList {
+    display: flex;
+    flex-direction: column;
+}
 .World_Card {
     background-color: rgba(142, 142, 142, 0.514);
-    width: 250px;
+    width: 290px;
     height: 300px;
+    border-radius: 12px;
 }
 
