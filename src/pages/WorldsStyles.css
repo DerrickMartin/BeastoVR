@@ -9,10 +9,14 @@
 .Worlds {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
 }
 .WorldsList {
     display: flex;
     flex-direction: column;
+
 }
 .World_Card {
     background-color: rgba(142, 142, 142, 0.514);
