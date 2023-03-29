@@ -11,8 +11,7 @@ const Worlds = () => {
       <div className='WorldHero'>
         <p>Glad you stopped by! Here are some of my favorite sceneries I created so we can explore in VR!!</p>
         
-        <p>Choose any of the following worlds below, each world comes packed with diffrent skills and scenery, more worlds will be created in the future, with the voted suggestions 
-          coming from my patreons </p>
+        <p>Choose any of the following worlds below, each world comes packed with different skills and scenery. More worlds will be created in the future, with teh voted suggestions coming from my patreons. </p>
 
         <ul className='WorldsList'> 
           <li className='Worlds'> 
