@@ -2,7 +2,17 @@
 import FooterSection from '../../components/Footer/FooterSection';
 import Navbar from '../../components/Navbar/Navbar'
 
+import 'aframe';
+import 'aframe-particle-system-component';
+import {Entity, Scene} from 'aframe-react';
+import React from 'react';
+import ReactDOM from 'react-dom';
+ 
+
+
+
 const NinjaArena = () => {
+  render () {
     return (
     <>
     <Navbar />
@@ -131,4 +141,7 @@ const NinjaArena = () => {
     </>
     )
   };
+}
   export default NinjaArena;
+
+  ReactDOM.render(<VRScene/>, document.querySelector('#sceneContainer'));
