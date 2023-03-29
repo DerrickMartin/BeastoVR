@@ -4,7 +4,8 @@ import 'aframe';
 import 'babel-polyfill';
 import {Entity, Scene} from 'aframe-react';
 import React from 'react';
-import ReactDOM from 'react-dom';
+
+import './NinjaArenaStyles.css';
  
 
 
@@ -13,7 +14,7 @@ const NinjaArena = () => {
     return (
     <>
     <Navbar />
-    <div>
+    <div className='Ninja_Arena'>
      <Scene>
       <a-assets>
         <img id="chuunin_floor"
