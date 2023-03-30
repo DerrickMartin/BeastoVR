@@ -59,11 +59,11 @@ const NinjaArena = () => {
           material={{color:"#804000"}}/>
         <Entity id="cylinderright"
           geometry={{primitive: 'cylinder', radius:2, height: 16}}
-          position={{x:57, y: 2.75, z: -3}}
+          position={{x:59, y: 2.75, z: 13}}
           material={{color: "#FFC65D"}}/>
         <Entity id="cylinderleft"
           geometry={{primitive: 'cylinder', radius:2, height: 16}}
-          position={{x:-57, y: 2.75, z: -3}}
+          position={{x:-59, y: 2.75, z: 13}}
           material={{color: "#FFC65D"}}/>
         <Entity primitive="a-camera" position={{x:0, y: 3, z: -1}} />
         <a-entity oculus-touch-controls="hand: left"></a-entity>
