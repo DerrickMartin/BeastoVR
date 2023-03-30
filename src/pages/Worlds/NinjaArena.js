@@ -22,11 +22,11 @@ const NinjaArena = () => {
         alt="chuunin Floor" />
       </a-assets>
         <Entity primitive="a-plane" rotation="-90 0 0" height="120" width="120" src="#chuunin_floor"/>
-        <Entity primitive="a-plane" rotation="0 0 0" height="1" width="1.4" color="#000" position="0, 2.5 -2.3"/>
+        <Entity primitive="a-plane" rotation="0 0 0" height=".8" width="1.2" color="#000" position="0, 2.5 -2.3"/>
         <Entity primitive="a-light" type="ambient" color="#abbfbb" />
         <Entity primitive="a-light" type="point" intensity="1.5" position="2 4 4"/>
-        <Entity text={{value: 'Welcome to Ninja Arena!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:2.5, z: -2.29}}/>
-
+        <Entity text={{value: 'Welcome to Ninja Arena!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:2.7, z: -2.29}}/>
+        <Entity text={{value: 'Jutsus coming soon!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:2.5, z: -2.29}}/>
         <Entity id="plank"
           geometry={{primitive: 'box', width: 22, height:0.3, depth: 1}}
           position={{x: -14, y: 10.8, z: -3.5}}
