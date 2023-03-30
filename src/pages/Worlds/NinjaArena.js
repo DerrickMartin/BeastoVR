@@ -21,7 +21,7 @@ const NinjaArena = () => {
         alt="chuunin Floor" />
       </a-assets>
         <Entity id="floor" primitive="a-plane" rotation="-90 0 0" height="120" width="120" src="#chuunin_floor"/>
-        <Entity id="ceiling" primitive="a-plane" rotation="90 0 0" height="120" width="120" src="#chuunin_floor" position="0, 16, 0"/>
+        <Entity id="ceiling" primitive="a-plane" rotation="90 0 0" height="120" width="120" src="#chuunin_floor" position="0, 25, 0"/>
         <Entity primitive="a-plane" rotation="0 0 0" height=".8" width="1.3" color="#000" position="0, 2.6 -2.3"/>
         <Entity primitive="a-light" type="ambient" color="#abbfbb" />
         <Entity primitive="a-light" type="point" intensity="1.5" position="2 4 4"/>
@@ -50,15 +50,20 @@ const NinjaArena = () => {
         <Entity id="leftPlatform"
           geometry={{primitive: 'box', width: 110, height:0.3, depth: 2}}
           position={{x: -58, y: 10.8, z: -3.5}}
-          rotation={{x:0, y: 0, z:90}}
+          rotation={{x:90, y: 0, z:90}}
+          material={{color:"#804000"}}/>
+        <Entity id="rightPlatform"
+          geometry={{primitive: 'box', width: 110, height:0.3, depth: 2}}
+          position={{x: 58, y: 10.8, z: -3.5}}
+          rotation={{x:90, y: 0, z:90}}
           material={{color:"#804000"}}/>
         <Entity id="cylinderright"
-          geometry={{primitive: 'cylinder', radius:1, height: 16}}
-          position={{x:61, y: 0.75, z: -3}}
+          geometry={{primitive: 'cylinder', radius:2, height: 16}}
+          position={{x:57, y: 2.75, z: -3}}
           material={{color: "#FFC65D"}}/>
         <Entity id="cylinderleft"
-          geometry={{primitive: 'cylinder', radius:1, height: 16}}
-          position={{x:-61, y: 0.75, z: -3}}
+          geometry={{primitive: 'cylinder', radius:2, height: 16}}
+          position={{x:-57, y: 2.75, z: -3}}
           material={{color: "#FFC65D"}}/>
         <Entity primitive="a-camera" position={{x:0, y: 3, z: -1}} />
         <a-entity oculus-touch-controls="hand: left"></a-entity>
