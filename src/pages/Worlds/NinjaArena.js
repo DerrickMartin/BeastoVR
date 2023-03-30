@@ -50,12 +50,12 @@ const NinjaArena = () => {
         <Entity id="leftPlatform"
           geometry={{primitive: 'box', width: 110, height:0.3, depth: 2}}
           position={{x: -58, y: 10.8, z: -10.5}}
-          rotation={{x:0, y: 0, z:90}}
+          rotation={{x:0, y: 90, z:0}}
           material={{color:"#804000"}}/>
         <Entity id="rightPlatform"
           geometry={{primitive: 'box', width: 110, height:0.3, depth: 2}}
           position={{x: 58, y: 10.8, z: -10.5}}
-          rotation={{x:0, y: 0, z:90}}
+          rotation={{x:90, y: 0, z:0}}
           material={{color:"#804000"}}/>
         <Entity id="cylinderright"
           geometry={{primitive: 'cylinder', radius:2, height: 16}}
