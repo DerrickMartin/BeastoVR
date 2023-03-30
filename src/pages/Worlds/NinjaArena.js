@@ -10,6 +10,19 @@ import './NinjaArenaStyles.css';
 
 const NinjaArena = () => {
   
+const AFRAME = window.AFRAME;
+
+  AFRAME.registerComponent('thumbstick-logging',{
+    init: function () {
+      this.el.addEventListener('thumbstickmoved', this.logThumbstick);
+    },
+    logThumbstick: function (evt) {
+      if (evt.detail.y > 0.95) { console.log("DOWN"); }
+      if (evt.detail.y < -0.95) { console.log("UP"); }
+      if (evt.detail.x < -0.95) { console.log("LEFT"); }
+      if (evt.detail.x > 0.95) { console.log("RIGHT"); }
+    }
+  });
     return (
 
     <div className='Ninja_Arena'>
@@ -76,8 +89,8 @@ const NinjaArena = () => {
           position={{x:-59, y: 2.75, z: 13}}
           material={{color: "#FFC65D"}}/>
         <Entity primitive="a-camera" position={{x:0, y: 3, z: -1}} />
-        <a-entity oculus-touch-controls="hand: left"></a-entity>
-        <a-entity oculus-touch-controls="hand: right"></a-entity>
+        <a-entity oculus-touch-controls="hand: left" thumbstick-logging></a-entity>
+        <a-entity oculus-touch-controls="hand: right" thumbstick-logging></a-entity>
      </Scene>
      </div>
   
@@ -85,3 +98,5 @@ const NinjaArena = () => {
   };
 
   export default NinjaArena;
+
+
