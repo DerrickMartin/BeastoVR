@@ -48,7 +48,7 @@ const NinjaArena = () => {
           rotation={{x:0, y:0, z:0}}
           material={{color:"#804000"}}/>
         <Entity id="leftPlatform"
-          geometry={{primitive: 'box', width: 110, height:1.9, depth: 1}}
+          geometry={{primitive: 'box', width: 110, height:.5, depth: 4}}
           position={{x: -59, y: 10.8, z: -10.5}}
           rotation={{x:0, y: 90, z:0}}
           material={{color:"#4d0000"}}/>
@@ -58,7 +58,7 @@ const NinjaArena = () => {
           rotation={{x:0, y:90, z:0}}
           material={{color:"#190000"}}/>
         <Entity id="rightPlatform"
-          geometry={{primitive: 'box', width: 110, height:1.9, depth: 1}}
+          geometry={{primitive: 'box', width: 110, height:.5, depth: 4}}
           position={{x: 59, y: 10.8, z: -10.5}}
           rotation={{x:0, y: 90, z:0}}
           material={{color:"#4d0000"}}/>
