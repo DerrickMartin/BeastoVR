@@ -28,23 +28,23 @@ const NinjaArena = () => {
         <Entity text={{value: 'Welcome to Ninja Arena!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:2.7, z: -2.29}}/>
         <Entity text={{value: 'Jutsus coming soon!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:2.5, z: -2.29}}/>
         <Entity id="leftWall"
-          geometry={{primitive: 'box', width: 60, height:16, depth: 1}}
-          position={{x: -65, y: 5, z: 0}}
+          geometry={{primitive: 'box', width: 120, height:16, depth: 1}}
+          position={{x: -60, y: 5, z: 0}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#804000"}}/>
         <Entity id="rightWall"
-          geometry={{primitive: 'box', width: 60, height:16, depth: 1}}
-          position={{x:65, y:5, z:0}}
+          geometry={{primitive: 'box', width: 120, height:16, depth: 1}}
+          position={{x:60, y:5, z:0}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#804000"}}/>
         <Entity id="backWall"
-          geometry={{primitive: 'box', width: 60, height:16, depth: 1}}
-          position={{x:0, y: 5, z:65}}
+          geometry={{primitive: 'box', width: 120, height:16, depth: 1}}
+          position={{x:0, y: 5, z:60}}
           rotation={{x:0, y:0, z:0}}
           material={{color:"#804000"}}/>
         <Entity id="FrontWall"
-          geometry={{primitive: 'box', width: 60, height:16, depth: 1}}
-          position={{x:0, y: 5, z:-65}}
+          geometry={{primitive: 'box', width: 120, height:16, depth: 1}}
+          position={{x:0, y: 5, z:-60}}
           rotation={{x:0, y:0, z:0}}
           material={{color:"#804000"}}/>
         <Entity id="plank"
@@ -52,12 +52,12 @@ const NinjaArena = () => {
           position={{x: -14, y: 10.8, z: -3.5}}
           material={{color:"#804000"}}/>
         <Entity id="cylinderright"
-          geometry={{primitive: 'cylinder', radius:2, height: 16}}
-          position={{x:30, y: 0.75, z: -3}}
+          geometry={{primitive: 'cylinder', radius:1, height: 16}}
+          position={{x:61, y: 0.75, z: -3}}
           material={{color: "#FFC65D"}}/>
         <Entity id="cylinderleft"
-          geometry={{primitive: 'cylinder', radius:2, height: 16}}
-          position={{x:-30, y: 0.75, z: -3}}
+          geometry={{primitive: 'cylinder', radius:1, height: 16}}
+          position={{x:-61, y: 0.75, z: -3}}
           material={{color: "#FFC65D"}}/>
         <Entity primitive="a-camera" position={{x:0, y: 3, z: -1}} />
         <a-entity oculus-touch-controls="hand: left"></a-entity>
