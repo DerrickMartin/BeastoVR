@@ -29,18 +29,18 @@ const NinjaArena = () => {
         <Entity text={{value: 'Jutsus coming soon!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:2.5, z: -2.29}}/>
         <Entity id="leftWall"
           geometry={{primitive: 'box', width: 50, height:16, depth: 1}}
-          position={{x: -20, y: 5, z: 0}}
+          position={{x: -40, y: 5, z: 0}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#804000"}}/>
         <Entity id="rightWall"
           geometry={{primitive: 'box', width: 50, height:16, depth: 1}}
-          position={{x:20, y:5, z:0}}
+          position={{x:40, y:5, z:0}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#804000"}}/>
         <Entity id="frontWall"
           geometry={{primitive: 'box', width: 50, height:16, depth: 1}}
-          position={{x:0, y: 5, z:20}}
-          rotation={{x:90, y:90, z:0}}
+          position={{x:0, y: 5, z:40}}
+          rotation={{x:0, y:90, z:90}}
           material={{color:"#804000"}}/>
         <Entity id="plank"
           geometry={{primitive: 'box', width: 22, height:0.3, depth: 1}}
