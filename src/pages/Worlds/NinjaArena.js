@@ -21,11 +21,11 @@ const NinjaArena = () => {
         crossorigin="anonymous" 
         alt="chuunin Floor" />
       </a-assets>
-        <Entity primitive="a-plane" rotation="-90 0 0" height="1000" width="1000" src="#chuunin_floor"/>
-        <Entity primitive="a-plane" rotation="-90 0 0" height="40" width="1000" src="#chuunin_floor"/>
+        <Entity primitive="a-plane" rotation="-90 0 0" height="60" width="60" src="#chuunin_floor"/>
+        <Entity primitive="a-plane" rotation="0 0 0" height="4" width="4" src="#chuunin_floor" position="0, 2 1"/>
         <Entity primitive="a-light" type="ambient" color="#abbfbb" />
         <Entity primitive="a-light" type="point" intensity="1.5" position="2 4 4"/>
-        <Entity text={{value: 'Welcome to Ninja Arena!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:8.5, z: -4}}/>
+        <Entity text={{value: 'Welcome to Ninja Arena!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:3.5, z: -1}}/>
 
         <Entity id="plank"
           geometry={{primitive: 'box', width: 22, height:0.3, depth: 1}}
@@ -39,7 +39,9 @@ const NinjaArena = () => {
           geometry={{primitive: 'cylinder', radius:5, height: 20}}
           position={{x:-30, y: 0.75, z: -3}}
           material={{color: "#FFC65D"}}/>
-        <Entity primitive="a-camera" position={{x:0, y: 11.6, z: -3}} />
+        <Entity primitive="a-camera" position={{x:0, y: 3, z: -1}} />
+        <a-entity oculus-touch-controls="hand: left"></a-entity>
+        <a-entity oculus-touch-controls="hand: right"></a-entity>
      </Scene>
      </div>
   
