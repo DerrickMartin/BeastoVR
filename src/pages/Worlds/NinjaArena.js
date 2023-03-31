@@ -67,10 +67,10 @@ const NinjaArena = () => {
           position={{x:0, y: 13, z:-60}}
           rotation={{x:0, y:0, z:0}}
           material={{color:"#804000"}}/>
-        <a-video src="#ninja_amv" width="22" height="10" position="-16 25 -59.2"></a-video>
-        <a-video src="#ninja_amv" width="16" height="9" position="-15 13 -59.2"></a-video>
-        <a-video src="#ninja_amv" width="22" height="1" position="26 25 -59.2"></a-video>
-        <a-video src="#ninja_amv" width="16" height="9" position="26 13 -59.2"></a-video>
+        <a-video src="#ninja_amv" width="23" height="11" position="-16 25 -59.2"></a-video>
+        <a-video src="#ninja_amv" width="17" height="9.5" position="-15 13 -59.2"></a-video>
+        <a-video src="#ninja_amv" width="23" height="11" position="26 25 -59.2"></a-video>
+        <a-video src="#ninja_amv" width="17" height="9.5" position="26 13 -59.2"></a-video>
         <Entity id="leftPlatform"
           geometry={{primitive: 'box', width: 111, height:.5, depth: 6.8}}
           position={{x: -59, y: 10.8, z: -10.5}}
