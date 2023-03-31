@@ -55,7 +55,7 @@ const NinjaArena = () => {
           geometry={{primitive: 'box', width: 120, height:45, depth: 1}}
           position={{x:60, y:13, z:0}}
           rotation={{x:0, y:90, z:0}}
-          material="src: #chuunin_wall"/>/>
+          material="src: #chuunin_wall"/>
         <Entity id="backWall"
           geometry={{primitive: 'box', width: 120, height:45, depth: 1}}
           position={{x:0, y: 13, z:60}}
