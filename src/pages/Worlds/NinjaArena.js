@@ -5,11 +5,8 @@ import {Entity, Scene} from 'aframe-react';
 import React from 'react';
 
 import './NinjaArenaStyles.css';
- 
-
-
-const NinjaArena = () => {
-  
+/*
+joystick controlling
 const AFRAME = window.AFRAME;
 
   AFRAME.registerComponent('thumbstick-logging',{
@@ -23,6 +20,11 @@ const AFRAME = window.AFRAME;
       if (evt.detail.x > 0.95) { console.log("RIGHT"); }
     }
   });
+*/
+
+const NinjaArena = () => {
+  
+
     return (
 
     <div className='Ninja_Arena'>
@@ -67,7 +69,7 @@ const AFRAME = window.AFRAME;
           material={{color:"#4d0000"}}/>
         <Entity id="leftPlatformRail"
           geometry={{primitive: 'box', width: 115, height:3, depth: .7}}
-          position={{x: -56, y: 12, z: -10.5}}
+          position={{x: -56, y: 12.3, z: -10.5}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#190000"}}/>
         <Entity id="rightPlatform"
@@ -77,7 +79,7 @@ const AFRAME = window.AFRAME;
           material={{color:"#4d0000"}}/>
         <Entity id="rightPlatformRail"
           geometry={{primitive: 'box', width: 115, height:3, depth: .7}}
-          position={{x: 56, y: 12, z: -10.5}}
+          position={{x: 56, y: 12.3, z: -10.5}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#190000"}}/>
         <Entity id="cylinderright"
