@@ -46,7 +46,7 @@ const NinjaArena = () => {
         <Entity primitive="a-light" type="ambient" color="#abbfbb" />
         <Entity primitive="a-light" type="point" intensity="1.5" position="2 4 4"/>
         <Entity text={{value: 'Welcome to Ninja Arena!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:2.7, z: -2.29}}/>
-        <Entity text={{value: 'Jutsus coming soon!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:2.5, z: -2.29}}/>
+        <Entity text={{value: 'Elemental skills coming soon!', align: "center", color: "#FFC650", width:"2.5", height:"2.5"}} position={{x: 0, y:2.5, z: -2.29}}/>
         <Entity id="leftWall"
           geometry={{primitive: 'box', width: 120, height:45, depth: 1}}
           position={{x: -60, y: 13, z: 0}}
@@ -67,10 +67,10 @@ const NinjaArena = () => {
           position={{x:0, y: 13, z:-60}}
           rotation={{x:0, y:0, z:0}}
           material={{color:"#804000"}}/>
-        <a-video src="#ninja_amv" width="23" height="11" position="-14 25 -59.2"></a-video>
-        <a-video src="#ninja_amv" width="23" height="11" position="-14 13 -59.2"></a-video>
-        <a-video src="#ninja_amv" width="23" height="11" position="25 25 -59.2"></a-video>
-        <a-video src="#ninja_amv" width="23" height="11" position="25 13 -59.2"></a-video>
+        <a-video src="#ninja_amv" width="23" height="11" position="-16 the 25 -59.2"></a-video>
+        <a-video src="#ninja_amv" width="23" height="11" position="-16 13 -59.2"></a-video>
+        <a-video src="#ninja_amv" width="23" height="11" position="16 25 -59.2"></a-video>
+        <a-video src="#ninja_amv" width="23" height="11" position="16 13 -59.2"></a-video>
         <Entity id="leftPlatform"
           geometry={{primitive: 'box', width: 111, height:.5, depth: 6.8}}
           position={{x: -59, y: 10.8, z: -10.5}}
