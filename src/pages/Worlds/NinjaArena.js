@@ -55,12 +55,12 @@ const NinjaArena = () => {
           geometry={{primitive: 'box', width: 120, height:45, depth: 1}}
           position={{x:60, y:13, z:0}}
           rotation={{x:0, y:90, z:0}}
-          material="src: #chuunin_wall"/>
+          material={{src:"#chuunin_wall"}}/>
         <Entity id="backWall"
           geometry={{primitive: 'box', width: 120, height:45, depth: 1}}
           position={{x:0, y: 13, z:60}}
           rotation={{x:0, y:0, z:0}}
-          material={{color:"#804000"}}/>
+          material={{src:"#chuunin_wall"}}/>
         <Entity id="FrontWall"
           geometry={{primitive: 'box', width: 120, height:45, depth: 1}}
           position={{x:0, y: 13, z:-60}}
@@ -73,7 +73,7 @@ const NinjaArena = () => {
           material={{color:"#4d0000"}}/>
         <Entity id="leftPlatformRail"
           geometry={{primitive: 'box', width: 115, height:3, depth: .7}}
-          position={{x: -56, y: 12.3, z: -10.5}}
+          position={{x: -56, y: 12.5, z: -10.5}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#190000"}}/>
         <Entity id="rightPlatform"
@@ -83,7 +83,7 @@ const NinjaArena = () => {
           material={{color:"#4d0000"}}/>
         <Entity id="rightPlatformRail"
           geometry={{primitive: 'box', width: 115, height:3, depth: .7}}
-          position={{x: 56, y: 12.3, z: -10.5}}
+          position={{x: 56, y: 12.5, z: -10.5}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#190000"}}/>
         <Entity id="cylinderright"
