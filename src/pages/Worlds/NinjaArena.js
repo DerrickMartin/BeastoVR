@@ -67,25 +67,27 @@ const NinjaArena = () => {
           position={{x:0, y: 13, z:-60}}
           rotation={{x:0, y:0, z:0}}
           material={{color:"#804000"}}/>
-        <a-video src="#ninja_amv" width="16" height="9" position="0 13 -59"></a-video>
-        <a-video src="./vid_bg.mp4" width="16" height="9" position="0 13 -50"></a-video>
+        <a-video src="#ninja_amv" width="16" height="9" position="-10 25 -59"></a-video>
+        <a-video src="#ninja_amv" width="16" height="9" position="-10 13 -59"></a-video>
+        <a-video src="#ninja_amv" width="16" height="9" position="30 25 -59"></a-video>
+        <a-video src="#ninja_amv" width="16" height="9" position="30 13 -59"></a-video>
         <Entity id="leftPlatform"
-          geometry={{primitive: 'box', width: 115, height:.5, depth: 6.8}}
+          geometry={{primitive: 'box', width: 111, height:.5, depth: 6.8}}
           position={{x: -59, y: 10.8, z: -10.5}}
           rotation={{x:0, y: 90, z:0}}
           material={{color:"#4d0000"}}/>
         <Entity id="leftPlatformRail"
-          geometry={{primitive: 'box', width: 115, height:3, depth: .7}}
+          geometry={{primitive: 'box', width: 111, height:3, depth: .7}}
           position={{x: -56, y: 12.5, z: -10.5}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#190000"}}/>
         <Entity id="rightPlatform"
-          geometry={{primitive: 'box', width: 115, height:.5, depth: 6.8}}
+          geometry={{primitive: 'box', width: 111, height:.5, depth: 6.8}}
           position={{x: 59, y: 10.8, z: -10.5}}
           rotation={{x:0, y: 90, z:0}}
           material={{color:"#4d0000"}}/>
         <Entity id="rightPlatformRail"
-          geometry={{primitive: 'box', width: 115, height:3, depth: .7}}
+          geometry={{primitive: 'box', width: 111, height:3, depth: .7}}
           position={{x: 56, y: 12.5, z: -10.5}}
           rotation={{x:0, y:90, z:0}}
           material={{color:"#190000"}}/>
