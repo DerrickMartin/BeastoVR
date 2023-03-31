@@ -38,6 +38,7 @@ const NinjaArena = () => {
         src="https://cdn.glitch.global/c76a4fd7-d4e0-495b-a83b-9db94de330a2/gray-concrete-ceramix-vinyl-tile-crx-508v-64_400.jpg.webp?v=1680031812870" 
         crossorigin="anonymous" 
         alt="Chuunin Walls"/>
+        <video id="ninja_amv" autoplay loop="true" src="https://cdn.glitch.me/c76a4fd7-d4e0-495b-a83b-9db94de330a2/ninja_amv.mp4?v=1680243344757"></video>
       </a-assets>
         <Entity id="floor" primitive="a-plane" rotation="-90 0 0" height="120" width="120" src="#chuunin_floor"/>
         <Entity id="ceiling" primitive="a-plane" rotation="90 0 0" height="120" width="120" src="#chuunin_floor" position="0, 35, 0"/>
@@ -66,6 +67,7 @@ const NinjaArena = () => {
           position={{x:0, y: 13, z:-60}}
           rotation={{x:0, y:0, z:0}}
           material={{color:"#804000"}}/>
+        <a-video src="#ninja_amv" width="16" height="9" position="0 13 -59.99"></a-video>
         <Entity id="leftPlatform"
           geometry={{primitive: 'box', width: 115, height:.5, depth: 6.8}}
           position={{x: -59, y: 10.8, z: -10.5}}
