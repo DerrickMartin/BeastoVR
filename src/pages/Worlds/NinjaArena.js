@@ -34,6 +34,10 @@ const NinjaArena = () => {
         src="https://cdn.glitch.global/c76a4fd7-d4e0-495b-a83b-9db94de330a2/chunin_floor.png?v=1680032695456" 
         crossorigin="anonymous" 
         alt="chuunin Floor" />
+        <img id="chuunin_wall"
+        src="https://cdn.glitch.global/c76a4fd7-d4e0-495b-a83b-9db94de330a2/gray-concrete-ceramix-vinyl-tile-crx-508v-64_400.jpg.webp?v=1680031812870" 
+        crossorigin="anonymous" 
+        alt="Chuunin Walls"/>
       </a-assets>
         <Entity id="floor" primitive="a-plane" rotation="-90 0 0" height="120" width="120" src="#chuunin_floor"/>
         <Entity id="ceiling" primitive="a-plane" rotation="90 0 0" height="120" width="120" src="#chuunin_floor" position="0, 35, 0"/>
@@ -46,12 +50,12 @@ const NinjaArena = () => {
           geometry={{primitive: 'box', width: 120, height:45, depth: 1}}
           position={{x: -60, y: 13, z: 0}}
           rotation={{x:0, y:90, z:0}}
-          material={{color:"#804000"}}/>
+          src="#chuunin_wall"/>
         <Entity id="rightWall"
           geometry={{primitive: 'box', width: 120, height:45, depth: 1}}
           position={{x:60, y:13, z:0}}
           rotation={{x:0, y:90, z:0}}
-          material={{color:"#804000"}}/>
+          src="#chuunin_wall"/>
         <Entity id="backWall"
           geometry={{primitive: 'box', width: 120, height:45, depth: 1}}
           position={{x:0, y: 13, z:60}}
