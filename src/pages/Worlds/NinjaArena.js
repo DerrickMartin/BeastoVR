@@ -100,8 +100,8 @@ const NinjaArena = () => {
           position={{x:-58.2, y: 2.75, z: 13}}
           material={{src:"#chuunin_wall"}}/>
         <Entity primitive="a-camera" position={{x:0, y: 3, z: -1}} />
-        <a-entity oculus-touch-controls="hand: left" thumbstick-logging></a-entity>
-        <a-entity oculus-touch-controls="hand: right" thumbstick-logging></a-entity>
+        <a-entity oculus-touch-controls="hand: left" thumb-controls="hand: left"></a-entity>
+        <a-entity oculus-touch-controls="hand: right" thumb-controls="hand: right"></a-entity>
      </Scene>
      </div>
   
