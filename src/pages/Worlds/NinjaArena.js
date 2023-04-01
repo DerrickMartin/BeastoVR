@@ -39,7 +39,7 @@ const NinjaArena = () => {
         crossorigin="anonymous" 
         alt="Chuunin Walls"/>
         <video id="ninja_amv" autoplay loop="true" src="https://cdn.glitch.me/c76a4fd7-d4e0-495b-a83b-9db94de330a2/ninja_amv.mp4?v=1680243344757"></video>
-        <a-asset-item id="arena" src="./ninja_arena.glb"></a-asset-item>
+        <a-asset-item id="arena" src="src/pages/Worlds/ninja_arena.glb"></a-asset-item>
       </a-assets>
         <a-entity gltf-model="#arena"
         position={{x: 0, y:0.5, z: 0}}></a-entity>
