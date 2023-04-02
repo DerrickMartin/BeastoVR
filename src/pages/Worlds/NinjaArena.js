@@ -1,6 +1,5 @@
 
 import 'aframe';
-import 'babel-polyfill';
 import {Entity, Scene} from 'aframe-react';
 import React from 'react';
 

@@ -3,7 +3,7 @@ import FooterSection from '../components/Footer/FooterSection'
 import "./WorldsStyles.css";
 import { Link } from "react-router-dom";
 
-
+import NinjaArena from '../assets/worlds/ninja_arena.png';
 import BattleArenaOfGods from '../assets/worlds/TournamentOfPower.png';
 
 const Worlds = () => {
@@ -22,7 +22,7 @@ const Worlds = () => {
               World #1
               <h3>Ninja Arena</h3>
               <span />
-              <img src={BattleArenaOfGods}  alt="Ninja Stadium" />
+              <img src={NinjaArena}  alt="Ninja Stadium" />
               <p> Use your favorite elements to do some crazy moves! </p>
             </div>
           </li>
