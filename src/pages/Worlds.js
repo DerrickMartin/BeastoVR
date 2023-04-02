@@ -22,7 +22,7 @@ const Worlds = () => {
               World #1
               <h3>Ninja Arena</h3>
               <span />
-              <img src={NinjaArena}  alt="Ninja Stadium" />
+              <img src={NinjaArena}  alt="Ninja Stadium" style={{marginLeft: 5}}/>
               <p> Use your favorite elements to do some crazy moves! </p>
             </div>
           </li>
@@ -32,7 +32,7 @@ const Worlds = () => {
               World #2
               <h3>Hyperspace Chamber</h3>
               <span />
-              <img src={BattleArenaOfGods} alt="Hyper Space" />
+              <img src={BattleArenaOfGods} alt="Hyper Space" style={{marginLeft: 5}} />
             </div>
           </li>
 
@@ -41,7 +41,7 @@ const Worlds = () => {
               World #3
               <h3>Battle Arena of Gods</h3>
               <span />
-              <img src={BattleArenaOfGods} alt="Batte Arena of Gods" />
+              <img src={BattleArenaOfGods} alt="Batte Arena of Gods" style={{marginLeft: 10}}/>
             </div>
           </li>
         </ul>
